@@ -1,0 +1,214 @@
+# Kirby .htaccess
+
+# rewrite rules
+<IfModule mod_rewrite.c>
+
+# enable awesome urls. i.e.:
+# http://yourdomain.com/about-us/team
+RewriteEngine on
+
+# make sure to set the RewriteBase correctly
+# if you are running the site in a subfolder.
+# Otherwise links or the entire site will break.
+#
+# If your homepage is http://yourdomain.com/mysite
+# Set the RewriteBase to:
+#
+# RewriteBase /mysite
+
+# In some enviroments it's necessary to
+# set the RewriteBase to:
+#
+# RewriteBase /
+
+# Canonical https/www
+# See: https://htaccessbook.com/htaccess-redirect-https-www/
+# Not on localhost
+RewriteCond %{HTTP_HOST} ^byron\.co.uk$ [NC]
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Not on localhost or staging
+RewriteCond %{HTTP_HOST} ^byron\.co.uk$ [NC]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule (.*) https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# block files and folders beginning with a dot, such as .git
+# except for the .well-known folder, which is used for Let's Encrypt and security.txt
+RewriteRule (^|/)\.(?!well-known\/) index.php [L]
+
+# block text files in the content folder from being accessed directly
+RewriteRule ^content/(.*)\.(txt|md|mdown)$ index.php [L]
+
+# block all files in the site folder from being accessed directly
+# except for requests to plugin assets files
+RewriteRule ^site/(.*) index.php [L]
+
+# Enable authentication header
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+
+# block direct access to kirby and the panel sources
+RewriteRule ^kirby/(.*) index.php [L]
+
+# make site links work
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php [L]
+
+# Forbid direct access to error logs
+RewriteRule (^|/)error_log$ index.php [L]
+RewriteRule (^|/)debug.log$ index.php [L]
+
+</IfModule>
+
+# compress text file responses
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE application/json
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+# # Custom
+
+# # See: https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess
+
+# # ----------------------------------------------------------------------
+# # | ETags                                                              |
+# # ----------------------------------------------------------------------
+
+# # Remove `ETags` as resources are sent with far-future expires headers.
+# #
+# # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag
+# # https://developer.yahoo.com/performance/rules.html#etags
+# # https://tools.ietf.org/html/rfc7232#section-2.3
+
+# # `FileETag None` doesn't work in all cases.
+# <IfModule mod_headers.c>
+#     Header unset ETag
+# </IfModule>
+
+# FileETag None
+
+# # ----------------------------------------------------------------------
+# # | Cache expiration                                                   |
+# # ----------------------------------------------------------------------
+
+# # Serve resources with far-future expiration date.
+# #
+# # (!) If you don't control versioning with filename-based
+# # cache busting, you should consider lowering the cache times
+# # to something like one week.
+# #
+# # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
+# # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires
+# # https://httpd.apache.org/docs/current/mod/mod_expires.html
+
+# <IfModule mod_expires.c>
+
+#     ExpiresActive on
+#     ExpiresDefault                                      "access plus 1 month"
+
+#   # CSS
+
+#     ExpiresByType text/css                              "access plus 3 months"
+
+
+#   # Data interchange
+
+#     ExpiresByType application/atom+xml                  "access plus 1 hour"
+#     ExpiresByType application/rdf+xml                   "access plus 1 hour"
+#     ExpiresByType application/rss+xml                   "access plus 1 hour"
+
+#     ExpiresByType application/json                      "access plus 0 seconds"
+#     ExpiresByType application/ld+json                   "access plus 0 seconds"
+#     ExpiresByType application/schema+json               "access plus 0 seconds"
+#     ExpiresByType application/geo+json                  "access plus 0 seconds"
+#     ExpiresByType application/xml                       "access plus 0 seconds"
+#     ExpiresByType text/calendar                         "access plus 0 seconds"
+#     ExpiresByType text/xml                              "access plus 0 seconds"
+
+
+#   # Favicon (cannot be renamed!) and cursor images
+
+#     ExpiresByType image/vnd.microsoft.icon              "access plus 1 week"
+#     ExpiresByType image/x-icon                          "access plus 1 week"
+
+#   # HTML
+
+#     ExpiresByType text/html                             "access plus 0 seconds"
+
+
+#   # JavaScript
+
+#     ExpiresByType application/javascript                "access plus 3 months"
+#     ExpiresByType application/x-javascript              "access plus 3 months"
+#     ExpiresByType text/javascript                       "access plus 3 months"
+
+
+#   # Manifest files
+
+#     ExpiresByType application/manifest+json             "access plus 1 week"
+#     ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
+#     ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+
+
+#   # Markdown
+
+#     ExpiresByType text/markdown                         "access plus 0 seconds"
+
+
+#   # Media files
+
+#     ExpiresByType audio/ogg                             "access plus 1 month"
+#     ExpiresByType image/bmp                             "access plus 1 month"
+#     ExpiresByType image/gif                             "access plus 1 month"
+#     ExpiresByType image/jpeg                            "access plus 1 month"
+#     ExpiresByType image/png                             "access plus 1 month"
+#     ExpiresByType image/svg+xml                         "access plus 1 month"
+#     ExpiresByType image/webp                            "access plus 1 month"
+#     ExpiresByType video/mp4                             "access plus 1 month"
+#     ExpiresByType video/ogg                             "access plus 1 month"
+#     ExpiresByType video/webm                            "access plus 1 month"
+
+
+#   # WebAssembly
+
+#     ExpiresByType application/wasm                      "access plus 1 year"
+
+
+#   # Web fonts
+
+#     # Collection
+#     ExpiresByType font/collection                       "access plus 3 months"
+
+#     # Embedded OpenType (EOT)
+#     ExpiresByType application/vnd.ms-fontobject         "access plus 3 months"
+#     ExpiresByType font/eot                              "access plus 3 months"
+
+#     # OpenType
+#     ExpiresByType font/opentype                         "access plus 3 months"
+#     ExpiresByType font/otf                              "access plus 3 months"
+
+#     # TrueType
+#     ExpiresByType application/x-font-ttf                "access plus 3 months"
+#     ExpiresByType font/ttf                              "access plus 3 months"
+
+#     # Web Open Font Format (WOFF) 1.0
+#     ExpiresByType application/font-woff                 "access plus 3 months"
+#     ExpiresByType application/x-font-woff               "access plus 3 months"
+#     ExpiresByType font/woff                             "access plus 3 months"
+
+#     # Web Open Font Format (WOFF) 2.0
+#     ExpiresByType application/font-woff2                "access plus 3 months"
+#     ExpiresByType font/woff2                            "access plus 3 months"
+
+
+#   # Other
+
+#     ExpiresByType text/x-cross-domain-policy            "access plus 1 week"
+
+# </IfModule>

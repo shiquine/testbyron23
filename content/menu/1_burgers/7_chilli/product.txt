@@ -1,0 +1,62 @@
+Title: Chilli
+
+----
+
+Menu-image:
+
+- burger_aw_4.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- chilli-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: beef,red
+
+----
+
+Description: <p>Juicy 6oz beef patty, green&nbsp;chillies, gooey American cheese, lettuce, chipotle mayo.<br><em>&nbsp;</em>&nbsp;<br><em>Originally on the menu for the Queens Jubilee, the&nbsp;Chilli&nbsp;made a cheeky comeback by popular demand. Kind of like Craig David, but so much tastier.&nbsp;</em></p>
+
+----
+
+Ingredients:
+
+- allergens/6oz-beef-patty
+- allergens/american-cheese
+- allergens/green-chillies
+- allergens/lettuce
+- allergens/chipotle-mayo
+- allergens/byron-bun
+
+----
+
+Preparation-allergens:
+
+- allergens/soya
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

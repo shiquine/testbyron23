@@ -1,0 +1,183 @@
+Title: Byron
+
+----
+
+Twitter: ByronBurgersUK
+
+----
+
+Facebook: https://www.facebook.com/ByronBurgersUK
+
+----
+
+Instagram: https://www.instagram.com/ByronBurgersUK
+
+----
+
+Header-menu:
+
+- 
+  type: page
+  text: About
+  page:
+    - contact
+  url: ""
+  new_tab: 'false'
+- 
+  type: page
+  text: Menu
+  page:
+    - menu
+  url: ""
+  new_tab: 'false'
+- 
+  type: page
+  text: Order
+  page:
+    - order
+  url: ""
+  new_tab: 'false'
+- 
+  type: page
+  text: Book
+  page:
+    - book
+  url: ""
+  new_tab: 'false'
+- 
+  type: page
+  text: Locations
+  page:
+    - locations
+  url: ""
+  new_tab: 'false'
+- 
+  type: page
+  text: Club
+  page:
+    - byron-club
+  url: ""
+  new_tab: 'false'
+- 
+  type: url
+  text: Shop
+  page: [ ]
+  url: >
+    https://gifts.byron.co.uk/shop/gift-cards
+  new_tab: 'true'
+
+----
+
+Footer-primary-menu:
+
+- 
+  type: page
+  text: Allergen Safety
+  page:
+    - allergens
+  url: ""
+  new_tab: 'false'
+
+----
+
+Footer-secondary-menu:
+
+- 
+  type: page
+  text: Jobs
+  page:
+    - jobs
+  url: ""
+  new_tab: 'false'
+- 
+  type: url
+  text: Gift Cards
+  page: [ ]
+  url: >
+    https://gifts.byron.co.uk/shop/gift-cards
+  new_tab: 'true'
+- 
+  type: page
+  text: Contact
+  page:
+    - contact
+  url: ""
+  new_tab: 'false'
+- 
+  type: page
+  text: 'T&Cs'
+  page:
+    - terms-and-conditions
+  url: ""
+  new_tab: 'false'
+- 
+  type: page
+  text: Privacy
+  page:
+    - privacy
+  url: ""
+  new_tab: 'false'
+
+----
+
+Copyright-text: Famously Proper Ltd.
+
+----
+
+Pop-up-toggle: true
+
+----
+
+Pop-up-delay-in-seconds: 3.3
+
+----
+
+Pop-up-title: Fancy free onion rings, Byron style?
+
+----
+
+Pop-up-text: <p>Join our exclusive Byron Club and get your hands on offers, sneak peeks and of course, free rings.</p><p>We got you.</p>
+
+----
+
+Pop-up-link-type: page
+
+----
+
+Pop-up-link-text: Join Here
+
+----
+
+Pop-up-link-page:
+
+- byron-club
+
+----
+
+Pop-up-link-url: 
+
+----
+
+Pop-up-media-type: animation
+
+----
+
+Pop-up-image:
+
+- campaign_placeholder.png
+
+----
+
+Pop-up-illustration:
+
+- kiss.json
+
+----
+
+Meta-description: Delicious burgers, craft beers and extra thick shakes
+
+----
+
+Meta-image:
+
+- campaign_placeholder.png

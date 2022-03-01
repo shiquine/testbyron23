@@ -1,0 +1,62 @@
+Title: Smokey
+
+----
+
+Menu-image:
+
+- burger_aw_5.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- smokey-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: beef,red
+
+----
+
+Description: <p>Juicy 6oz beef patty, smokey pancetta, Cheddar cheese, crispy onions, smoked&nbsp;chilli&nbsp;BBQ sauce, pickles, lettuce.<br>&nbsp;<br><em>After&nbsp;hearing&nbsp;the French&nbsp;were&nbsp;attempting to&nbsp;revolutionise&nbsp;the American burger, we&nbsp;had to&nbsp;see it for ourselves. We brought some ideas back to the UK and made it&nbsp;better. Merci Paris!</em></p>
+
+----
+
+Ingredients:
+
+- allergens/pancetta
+- allergens/cheddar-cheese
+- allergens/crispy-onions
+- allergens/6oz-beef-patty
+- allergens/smoked-chilli-bbq-sauce
+- allergens/pickles
+- allergens/lettuce
+- allergens/byron-bun
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

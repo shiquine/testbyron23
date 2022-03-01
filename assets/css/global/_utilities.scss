@@ -1,0 +1,17 @@
+//
+//  Lazyload
+
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: all 0.5s ease-out;
+}
+
+//  Lazyloaded images will have a no-js fallback
+.no-js .lazyload {
+  display: none;
+}

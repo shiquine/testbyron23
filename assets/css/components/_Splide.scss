@@ -1,0 +1,230 @@
+.splide {
+}
+
+.no-js .splide {
+  visibility: visible;
+}
+
+.splide__track {
+}
+
+.splide__list {
+}
+
+.no-js .splide__list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.splide__slide {
+}
+
+.splide[data-slider="stories"] .splide__slide,
+.splide[data-slider="campaigns"] .splide__slide {
+  opacity: 0.5;
+  transition: opacity 0.25s $ease-out-quad;
+}
+
+.splide[data-slider="stories"] .splide__slide.is-active,
+.splide[data-slider="stories"]
+  .splide__slide.is-active
+  + .splide__slide.is-visible,
+.splide[data-slider="campaigns"] .splide__slide.is-active,
+.splide[data-slider="campaigns"]
+  .splide__slide.is-active
+  + .splide__slide.is-visible {
+  opacity: 1;
+}
+
+.no-js .splide__slide {
+  width: 100%;
+  padding-right: var(--margin);
+  padding-left: var(--margin);
+}
+
+.no-js .splide[data-slider="stories"] .splide__slide {
+  @include media-query(medium) {
+    width: 50%;
+  }
+}
+
+.no-js .splide[data-slider="menu"] .splide__slide {
+  @include media-query(small) {
+    width: 50%;
+  }
+
+  @include media-query(medium) {
+    width: 25%;
+  }
+}
+
+.splide__arrows {
+}
+
+.splide[data-single] .splide__arrows {
+  display: none;
+}
+
+.no-js .splide__arrows {
+  display: none;
+}
+
+.splide__arrow {
+  // <button>
+  position: absolute;
+  top: 0;
+  height: 100%;
+  z-index: 1;
+
+  display: flex;
+
+  color: rgba($black, 0.75);
+  transition: color $transition;
+}
+
+.splide[data-slider="menu"] .splide__arrow {
+  align-items: center;
+  padding: var(--margin);
+}
+
+.splide[data-slider="campaigns"] .splide__arrow {
+  align-items: center;
+  padding: var(--margin);
+}
+
+.splide[data-slider="stories"] .splide__arrow {
+  align-items: flex-start;
+
+  //  Appear half way down the image
+  //  Look at Stories.scss for how this is calculated
+  padding-top: calc(((100vw - 88px) * 0.7143) / 2);
+  padding-right: calc(var(--margin) / 2);
+  padding-left: calc(var(--margin) / 2);
+
+  @include media-query(medium) {
+    padding-top: calc((var(--storyCarouselMaxWidth) * 0.7143) / 2);
+
+    padding-right: var(--margin);
+    padding-left: var(--margin);
+  }
+}
+
+.splide__arrow:hover {
+  color: $black;
+}
+
+.splide__arrow:active {
+  color: $red;
+}
+
+.splide__arrow--prev {
+  left: 0;
+  width: auto;
+  justify-content: flex-start;
+
+  @include media-query(medium) {
+    width: 150px;
+  }
+
+  @include media-query(large) {
+    justify-content: flex-end;
+    width: calc((100vw - var(--maxWidth) + var(--margin) + var(--margin)) / 2);
+    min-width: 150px;
+  }
+}
+
+.splide[data-slider="menu"] .splide__arrow--prev {
+  @include media-query(medium, max) {
+    width: var(--slidePaddingLeft);
+  }
+
+  background-image: linear-gradient(
+    to left,
+    rgba($putty, 0),
+    rgba($putty, 0.66)
+  );
+
+  @include media-query(large) {
+    background-image: linear-gradient(
+      to left,
+      rgba($putty, 0),
+      rgba($putty, 0.66) 150px,
+      rgba($putty, 1)
+        calc((var(--oneColumnOfMaxWidth) * 2) + (var(--gridGap) * 2))
+    );
+  }
+}
+
+.splide__arrow--next {
+  right: 0;
+  width: auto;
+
+  @include media-query(medium) {
+    width: 150px;
+  }
+
+  @include media-query(large) {
+    width: calc((100vw - var(--maxWidth) + var(--margin) + var(--margin)) / 2);
+    min-width: 150px;
+  }
+}
+
+.splide[data-slider="menu"] .splide__arrow--next {
+  background-image: linear-gradient(
+    to left,
+    rgba($putty, 0.66),
+    rgba($putty, 0) var(--slidePaddingRight),
+    rgba($putty, 0)
+  );
+
+  @include media-query(medium) {
+    background-image: linear-gradient(
+      to right,
+      rgba($putty, 0),
+      rgba($putty, 0.66)
+    );
+  }
+
+  @include media-query(large) {
+    background-image: linear-gradient(
+      to right,
+      rgba($putty, 0),
+      rgba($putty, 0.66) 150px,
+      rgba($putty, 1)
+        calc((var(--oneColumnOfMaxWidth) * 2) + (var(--gridGap) * 2))
+    );
+  }
+}
+
+.splide__arrowInner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 150px;
+}
+
+.splide__arrow--next .splide__arrowInner {
+  justify-content: flex-end;
+}
+
+.splide__arrow .svg-chevron-right,
+.splide__arrow .svg-chevron-left {
+  //  Ratio: 450.9:810.8
+  width: 20px;
+  height: 36px;
+}
+
+.splide[data-slider="stories"] {
+  .svg-chevron-right,
+  .svg-chevron-left {
+    position: relative;
+    transform: translateY(-50%);
+  }
+}
+
+body[data-touch] .splide__arrow .svg-chevron-right,
+body[data-touch] .splide__arrow .svg-chevron-left {
+  opacity: 0;
+}

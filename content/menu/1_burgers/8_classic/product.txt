@@ -1,0 +1,63 @@
+Title: Classic
+
+----
+
+Menu-image:
+
+- burger_aw_13.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- classic-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: beef,red
+
+----
+
+Description: <p>Juicy 6oz beef patty, lettuce, tomato, red onion, ketchup, mayo.<br><br><em>The best cuts of Aberdeen Angus beef from the best butchers in North Yorkshire, who join our mission to do a simple thing and do it properly.&nbsp;You can’t mess with the OG.&nbsp;</em><strong><em>&nbsp;</em></strong></p>
+
+----
+
+Ingredients:
+
+- allergens/6oz-beef-patty
+- allergens/lettuce
+- allergens/tomato
+- allergens/onion
+- allergens/mayo
+- allergens/ketchup
+- allergens/byron-bun
+
+----
+
+Preparation-allergens:
+
+- allergens/soya
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

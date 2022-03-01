@@ -1,0 +1,21 @@
+Title: sriracha mayo
+
+----
+
+Allergens:
+
+- allergens/egg
+- allergens/garlic
+- allergens/sulphur-dioxide
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

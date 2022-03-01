@@ -1,0 +1,38 @@
+title: Post
+icon: text
+options:
+  changeSlug: true
+  changeStatus: true
+  changeTemplate: false
+  changeTitle: true
+  delete: true
+  duplicate: true
+  preview: true
+  read: true
+  update: true
+
+status:
+  draft: true
+  unlisted: false
+  listed: true
+
+tabs:
+  #
+  #  Content Tab
+  #
+  content:
+    extends: tabs/default_content
+    columns:
+      content:
+        sections:
+          content:
+            fields:
+              published_date:
+                label: Published Date
+                type: date
+
+  #
+  #  SEO Tab
+  #
+  seo:
+    extends: tabs/seo

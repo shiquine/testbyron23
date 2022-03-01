@@ -1,0 +1,61 @@
+Title: Cali Cheese
+
+----
+
+Menu-image: 
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- cali.jpg
+
+----
+
+Tag: vegan,green
+
+----
+
+Description: <p>Beyond Meat plant-based patty, vegan Cheddar, pickled red onions, lettuce, roasted garlic aioli, smoked tomato&nbsp;ketchup.<br>&nbsp;<br><em>Our classic with a vegan twist. Forget the lettuce&nbsp;Karen,&nbsp;you can be a naughty vegan, don't let anyone kale your vibe.&nbsp;(No kale to be found in our kitchens, good vibes only)</em></p>
+
+----
+
+Ingredients:
+
+- allergens/beyond-meat-patty
+- allergens/vegan-cheddar
+- allergens/pickled-red-onion
+- allergens/lettuce
+- allergens/smoked-tomato-ketchup
+- allergens/roasted-garlic-aioli
+
+----
+
+Preparation-allergens:
+
+- allergens/egg
+- allergens/soya
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

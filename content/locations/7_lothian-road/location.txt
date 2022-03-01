@@ -1,0 +1,116 @@
+Title: Lothian Road, Edinburgh
+
+----
+
+Featured-image:
+
+- img_0059.jpg
+
+----
+
+Gallery:
+
+- img_0059.jpg
+- img_0078.jpg
+- img_0129.jpg
+
+----
+
+Description: 
+
+----
+
+Tags: Free WiFi, Large parties, Vegan, Nightlife, Wheelchair access
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Friday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Saturday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+- 
+  day: Sunday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: 113-117 Lothian Road
+
+----
+
+Address-line-two: 
+
+----
+
+Address-city: Edinburgh
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: EH3 9AN
+
+----
+
+Address-lat: 55.946099
+
+----
+
+Address-lng: -3.2053173
+
+----
+
+Phone: 01312 285651
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>Haymarket Train Station</strong></p>
+
+----
+
+What-three-words: fancy.risen.effort
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

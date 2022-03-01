@@ -1,0 +1,19 @@
+.LiveRes {
+  margin-top: var(--margin);
+  margin-bottom: var(--margin);
+
+  width: 100%;
+  @include content-max-width;
+  height: 1180px;
+
+  @media (min-width: 520px) {
+    height: 720px;
+  }
+}
+
+.LiveRes-noscript {
+  border: 1px solid $red;
+  padding: var(--margin);
+  @include copy;
+  @include copy-styles;
+}

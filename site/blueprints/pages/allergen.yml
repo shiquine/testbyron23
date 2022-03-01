@@ -1,0 +1,21 @@
+title: Allergen
+icon: alert
+options:
+  # ! The slug is the ID for this, so it cannot be changed. The page is not
+  # ! reached directly anyway, so this does not matter.
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  changeTitle: true
+  delete: true
+  duplicate: false
+  preview: false
+  read: true
+  update: true
+
+fields:
+  info:
+    label: Information
+    type: info
+    text: |
+      There’s nothing more to edit here...

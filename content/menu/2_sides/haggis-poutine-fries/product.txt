@@ -1,0 +1,57 @@
+Title: Haggis poutine
+
+----
+
+Menu-image: 
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- haggis-poutine_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p>Fries, gravy, haggis, cheese sauce, topped with pickled onions.<br><br>The William Wallace of loaded fries. <em>Scotland restaurants only. </em></p>
+
+----
+
+Ingredients:
+
+- allergens/skin-on-fries
+- allergens/haggis
+- allergens/onion-gravy
+- allergens/byron-cheese-sauce
+- allergens/pickled-red-onion
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

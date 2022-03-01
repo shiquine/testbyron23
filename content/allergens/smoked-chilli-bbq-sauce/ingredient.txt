@@ -1,0 +1,22 @@
+Title: smoked chilli BBQ sauce
+
+----
+
+Allergens:
+
+- allergens/egg
+- allergens/soya
+- allergens/celery
+- allergens/garlic
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: false

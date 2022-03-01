@@ -1,0 +1,20 @@
+Title: buttermilk fried chicken
+
+----
+
+Allergens:
+
+- allergens/milk
+- allergens/garlic
+
+----
+
+Is-vegetarian: false
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

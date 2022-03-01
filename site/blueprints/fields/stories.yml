@@ -1,0 +1,22 @@
+type: group
+fields:
+  stories_headline:
+    label: Stories
+    type: headline
+    numbered: false
+    help: |
+      New stories can be created on the <a href="{{ site.index.find('Stories').panelUrl }}">Stories page</a>. They can then be added here.
+
+  stories:
+    type: pages
+    query: site.index.template('story')
+    subpages: false
+    multiple: true
+    empty: No stories selected.
+    layout: cards
+    size: small
+    image:
+      query: page.cropped_media.toFile
+      cover: true
+      ratio: 7/5
+

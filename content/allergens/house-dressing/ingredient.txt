@@ -1,0 +1,20 @@
+Title: house dressing
+
+----
+
+Allergens:
+
+- allergens/mustard
+- allergens/sulphur-dioxide
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: true
+
+----
+
+Is-gluten-free: true

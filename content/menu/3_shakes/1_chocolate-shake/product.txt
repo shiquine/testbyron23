@@ -1,0 +1,55 @@
+Title: Chocolate shake
+
+----
+
+Menu-image:
+
+- shake_aw_7.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- chocolate-shake_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>Straight up indulgent, and the perfect chip dunker. No judging here...</em></p>
+
+----
+
+Ingredients:
+
+- allergens/chocolate-shake
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

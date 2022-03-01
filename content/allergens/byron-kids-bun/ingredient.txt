@@ -1,0 +1,20 @@
+Title: Byron kids bun
+
+----
+
+Allergens:
+
+- allergens/gluten-containing-cereals
+- allergens/soya
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: true
+
+----
+
+Is-gluten-free: false

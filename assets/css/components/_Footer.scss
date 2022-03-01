@@ -1,0 +1,103 @@
+.Footer {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  height: auto;
+  padding-top: var(--margin);
+  padding-bottom: calc(var(--margin) - 3px);
+
+  background-color: $black;
+  color: $putty;
+
+  text-align: center;
+
+  @include media-query(medium) {
+    padding-bottom: calc((var(--margin) * 2) - 6px);
+  }
+}
+
+.Footer-menus {
+  @include full-width-container;
+
+  margin-top: var(--margin);
+  margin-bottom: var(--margin);
+  margin-bottom: 15px;
+
+  @include media-query(medium) {
+    margin-bottom: 14px;
+  }
+}
+
+.Footer-menu {
+  // <ul>
+}
+
+//  TODO: Review these type sizes with Guillem, I think the tap targets are going to be too small
+.Footer-menu--main,
+.Footer-menu--primary {
+  @include small-title;
+  letter-spacing: 0.05em;
+}
+
+.Footer-menu--main {
+  margin-bottom: var(--margin);
+
+  @include media-query(medium) {
+    display: none;
+  }
+}
+
+//  This is no-js only
+.js .Footer-menu--main {
+  display: none;
+}
+
+.Footer-menu--primary + .Footer-menu--secondary {
+  margin-top: 16px;
+}
+
+.Footer-menu--secondary {
+  @include tiny-title;
+
+  @include media-query(medium) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.Footer-menu li {
+  display: block;
+}
+
+.Footer-menu--secondary li {
+  @include media-query(medium) {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
+
+.Footer-menu li:not(:last-child) {
+  margin-bottom: 7px;
+
+  @include media-query(medium) {
+    margin-bottom: 12px;
+  }
+}
+
+.Footer-menu a {
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.Footer-copyright {
+  @include type("copy-smaller");
+
+  @include media-query(medium) {
+    @include type("copy-medium");
+  }
+}

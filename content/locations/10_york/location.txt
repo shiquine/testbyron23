@@ -1,0 +1,114 @@
+Title: York
+
+----
+
+Featured-image:
+
+- york-out.png
+
+----
+
+Gallery:
+
+- york-out.png
+
+----
+
+Description: 
+
+----
+
+Tags: Free WiFi, Wheelchair access, Vegan, Large parties
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 12:00:00
+  closing_time: 22:30:00
+- 
+  day: Friday
+  opening_time: 12:00:00
+  closing_time: 23:00:00
+- 
+  day: Saturday
+  opening_time: 11:00:00
+  closing_time: 23:00:00
+- 
+  day: Sunday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: 11 High Ousegate
+
+----
+
+Address-line-two: 
+
+----
+
+Address-city: York
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: YO1 8RZ
+
+----
+
+Address-lat: 53.9581882
+
+----
+
+Address-lng: -1.0835812
+
+----
+
+Phone: 01904 652317
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>York Train Station</strong></p>
+
+----
+
+What-three-words: begin.each.milky
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

@@ -1,0 +1,56 @@
+Title: Halloumi fries
+
+----
+
+Menu-image:
+
+- burger_23.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- halloumi-fries_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>Warm,&nbsp;salty&nbsp;and super more-ish,&nbsp;served with smoked&nbsp;chilli&nbsp;BBQ&nbsp;sauce. Next level stuff.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/halloumi-fries
+- allergens/smoked-chilli-bbq-sauce
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

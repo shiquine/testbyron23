@@ -1,0 +1,74 @@
+#
+#  Default Content Tab
+#
+
+label: Content
+columns:
+  files:
+    width: 1/3
+    sticky: true
+    sections:
+      #
+      #  Files
+      #
+      files:
+        type: files
+        image:
+          back: black
+          cover: true
+
+  content:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          #
+          #  Featured Image
+          #
+          featured_image:
+            label: Featured Image
+            type: files
+            multiple: false
+            layout: cards
+            size: medium
+            width: 1/1
+            image:
+              back: black
+              cover: false
+              ratio: 16/9
+            help: |
+              This could be shown when this page is linked to from elsewhere on the site.
+
+          #
+          #  Text
+          #
+          text:
+            label: Article
+            type: blocks
+            empty: No content added yet...
+            pretty: true
+            fieldsets:
+              heading:
+                extends: blocks/heading
+                fields:
+                  level:
+                    options:
+                      - h2
+                      - h3
+                      - h4
+              - text
+              - list
+              - bigLink
+              - quote
+              image:
+                extends: blocks/image
+                fields:
+                  location: false
+                  link: false
+                  ratio: false
+                  crop: false
+                  #  Always show the image. The location toggle is disabled here, so this is needed.
+                  image:
+                    when: false
+              - video

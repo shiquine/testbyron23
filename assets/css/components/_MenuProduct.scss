@@ -1,0 +1,93 @@
+.MenuProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  width: 100%;
+}
+
+.MenuProduct--menu {
+  @include media-query(medium) {
+    width: calc(
+      (100vw - var(--margin) - var(--margin) - (var(--gridGap) * 2)) / 3
+    );
+    max-width: calc((var(--maxWidthBasis) - (var(--gridGap) * 2)) / 3);
+  }
+}
+
+.MenuProduct--home {
+  @include media-query(medium) {
+    width: calc(var(--maxWidthBasis) / 3);
+  }
+}
+
+.MenuProduct-title {
+  margin-bottom: 1px;
+  padding-right: var(--gridGap);
+
+  font-size: 22px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+
+  @include media-query(medium) {
+    font-size: 28px;
+  }
+}
+
+.MenuProduct-title span {
+  display: block;
+}
+
+.MenuProduct--menu .MenuProduct-title span,
+.MenuProduct--menu .Tag {
+  @include media-query(medium) {
+    position: relative;
+    transform: translateX(5%); // better optical centering
+  }
+}
+
+.MenuProduct--home .MenuProduct-title {
+  text-align: center;
+
+  @include media-query(medium, max) {
+    padding-right: calc(var(--oneColumn));
+  }
+}
+
+.MenuProduct-title a {
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+//  Cover the whole item with a link to the location
+.MenuProduct-title a:after {
+  content: "";
+  @include absolute-fill;
+  z-index: 1;
+}
+
+.MenuProduct-image {
+  order: -1;
+
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  transform: translateX(-10%); // better optical centering
+
+  @include media-query(medium) {
+    transform: none;
+  }
+}
+
+.MenuProduct-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,115 @@
+Title: Milton Keynes
+
+----
+
+Featured-image:
+
+- mk-in.png
+
+----
+
+Gallery:
+
+- mk-in.png
+- mk-out.png
+
+----
+
+Description: 
+
+----
+
+Tags: Free WiFi, Wheelchair access, Vegan, Large parties, Outdoor seating
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 12:00:00
+  closing_time: 21:00:00
+- 
+  day: Tuesday
+  opening_time: 12:00:00
+  closing_time: 21:00:00
+- 
+  day: Wednesday
+  opening_time: 12:00:00
+  closing_time: 21:00:00
+- 
+  day: Thursday
+  opening_time: 12:00:00
+  closing_time: 21:00:00
+- 
+  day: Friday
+  opening_time: 11:00:00
+  closing_time: 21:00:00
+- 
+  day: Saturday
+  opening_time: 11:00:00
+  closing_time: 21:00:00
+- 
+  day: Sunday
+  opening_time: 11:00:00
+  closing_time: 20:00:00
+
+----
+
+Address-line-one: 55-57 Silbury Arcade
+
+----
+
+Address-line-two: thecentre:mk
+
+----
+
+Address-city: 
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: MK9 3AG
+
+----
+
+Address-lat: 52.0433865
+
+----
+
+Address-lng: -0.7571405
+
+----
+
+Phone: 01908 604616
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>Milton Keynes Central Train Station</strong></p>
+
+----
+
+What-three-words: breath.moisture.exonerate
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

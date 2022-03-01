@@ -1,0 +1,20 @@
+Title: Lemon tart
+
+----
+
+Allergens:
+
+- allergens/egg
+- allergens/milk
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: false

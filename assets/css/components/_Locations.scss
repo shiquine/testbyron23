@@ -1,0 +1,141 @@
+.Locations {
+  @include full-width-container;
+
+  padding-bottom: var(--margin);
+}
+
+.Locations[data-loading] {
+  cursor: progress;
+}
+
+.Locations-title {
+  @include boxed-title;
+  margin-right: auto;
+  margin-bottom: var(--margin);
+  margin-left: auto;
+}
+
+.Locations-results {
+  transition: opacity 0.25s $ease-out-quad;
+}
+
+.Locations[data-loading] .Locations-results {
+  opacity: 0.66;
+  animation: pulse 2s 0.5s $ease-in-out-quad infinite;
+}
+
+.Locations-error {
+  @include copy;
+  margin-bottom: var(--margin);
+}
+
+.Locations-list {
+  // <ul>
+
+  @include media-query(medium) {
+    @include basic-grid;
+    row-gap: var(--margin);
+  }
+}
+
+.Locations-item {
+  // <li>
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  @include media-query(medium) {
+    grid-column: span 3;
+    margin-bottom: 4px; // bring the gap to --margin
+  }
+}
+
+.Locations-item:not(:last-of-type) {
+  @include media-query(medium, max) {
+    margin-bottom: 13px;
+  }
+}
+
+.Locations-itemTitle {
+  margin-bottom: 10px;
+
+  @include type("section-title");
+  font-weight: 900;
+  letter-spacing: 0;
+
+  @include media-query(medium) {
+    font-size: 26px;
+    line-height: 26px;
+    margin-bottom: 2px;
+  }
+}
+
+.Locations-itemTitle a {
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+//  Cover the whole item with a link to the location
+.Locations-itemTitle a:after {
+  content: "";
+  @include absolute-fill;
+  z-index: 1;
+}
+
+.Locations-itemTitle span {
+  @include hidden;
+}
+
+.Locations-itemImage {
+  order: -1;
+
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 60%; // 5:3
+  background-color: $grey;
+
+  margin-bottom: 20px;
+
+  @include media-query(medium) {
+    margin-bottom: 12px;
+  }
+}
+
+.Locations-itemImage img {
+  // not always present
+  @include absolute-fill;
+  object-fit: cover;
+}
+
+.Locations-item .Address {
+  padding-right: 90px; // enough to avoid 'More info'
+}
+
+.Locations-item .Address a {
+  position: relative;
+  z-index: 2; // in front of card link
+}
+
+a.Locations-itemLink {
+  position: absolute;
+  right: 0;
+  bottom: 2px; // align with address baseline
+
+  z-index: 2; // in front of card link
+
+  @include product-link;
+
+  color: $red;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.Locations-itemLink:after {
+  content: " >";
+}

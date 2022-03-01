@@ -1,0 +1,83 @@
+.Bubble {
+  //  <button> or <div>
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  position: relative;
+  width: max-content;
+  min-width: 20px;
+  height: 20px;
+
+  border-radius: 20px;
+  overflow: visible;
+
+  padding-top: 2px;
+  padding-left: 1px; // better centering
+
+  background-color: var(--background, #{$black});
+  color: var(--color, #{$putty});
+
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+
+  @include media-query(large) {
+    min-width: 25px;
+    height: 25px;
+    border-radius: 25px;
+
+    padding-top: 5px;
+
+    font-size: 15px;
+  }
+}
+
+button.Bubble {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+//  Colors
+.Bubble--black {
+  --background: #{$black};
+  --color: #{$putty};
+}
+
+.Bubble-abbreviation {
+  line-height: 20px;
+}
+
+.Bubble-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 10em;
+  width: max-content;
+  height: auto;
+  z-index: 10;
+
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+
+  transform: translateY(calc(-100% - 4px));
+
+  background-color: var(--background, #{$black});
+  color: var(--color, #{$putty});
+
+  pointer-events: none;
+
+  opacity: 0;
+  transition: opacity $transition;
+}
+
+.Bubble:hover,
+.Bubble:focus {
+  .Bubble-text {
+    opacity: 1;
+  }
+}

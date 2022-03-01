@@ -1,0 +1,25 @@
+title: Error
+icon: bug
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  changeTitle: true
+  delete: false
+  duplicate: false
+  preview: true
+  read: true
+  update: true
+
+tabs:
+  #
+  #  Content Tab
+  #
+  content:
+    extends: tabs/default_content
+    columns:
+      content:
+        sections:
+          content:
+            fields:
+              featured_image: false

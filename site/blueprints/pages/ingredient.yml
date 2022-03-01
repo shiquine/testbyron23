@@ -1,0 +1,72 @@
+title: Ingredient
+icon: settings
+options:
+  # ! The slug is the ID for this, so it cannot be changed. The page is not
+  # ! reached directly anyway, so this does not matter.
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  changeTitle: true
+  delete: true
+  duplicate: false
+  preview: false
+  read: true
+  update: true
+
+columns:
+  - width: 1/2
+    sections:
+      #
+      #  Allergens
+      #
+      allergens:
+        type: fields
+        fields:
+          allergens:
+            label: List of allergens
+            type: pages
+            query: site.index.template('allergen')
+            subpages: false
+            empty: This ingredient has no allergens.
+            help: |
+              What are *all* of the allergens that this ingredient contains?
+
+  - width: 1/2
+    sections:
+      #
+      #  Toggles
+      #
+      toggles:
+        type: fields
+        fields:
+          dietary_headline:
+            label: Dietary Preferences
+            type: headline
+            numbered: false
+            help: |
+              Is this ingredient...
+
+          is_vegetarian:
+            label: Vegetarian?
+            type: toggle
+            width: 1/3
+            default: false
+            text:
+              - "No"
+              - "Yes"
+          is_vegan:
+            label: Vegans?
+            type: toggle
+            width: 1/3
+            default: false
+            text:
+              - "No"
+              - "Yes"
+          is_gluten_free:
+            label: Gluten Free?
+            type: toggle
+            width: 1/3
+            default: false
+            text:
+              - "No"
+              - "Yes"

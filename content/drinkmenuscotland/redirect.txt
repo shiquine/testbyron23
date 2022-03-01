@@ -1,0 +1,19 @@
+Title: DrinkMenuScotland
+
+----
+
+Redirect-type: file
+
+----
+
+Redirect-url: 
+
+----
+
+Redirect-page: 
+
+----
+
+Redirect-file:
+
+- drinks_sco.pdf

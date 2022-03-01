@@ -1,0 +1,22 @@
+.Button,
+a.Button {
+  --background: transparent;
+  --color: currentColor;
+
+  @include button-text;
+
+  background-color: var(--background);
+  color: var(--color);
+}
+
+.Button--block {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+
+.Button--block:hover,
+.Button--block:focus {
+  text-decoration: underline;
+}

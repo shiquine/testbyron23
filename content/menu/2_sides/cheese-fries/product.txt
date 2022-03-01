@@ -1,0 +1,63 @@
+Title: Cheese fries
+
+----
+
+Menu-image: 
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- cheese-fries_lifestyle_1920.jpg
+
+----
+
+Tag: vegetarian,green
+
+----
+
+Description: <p>Just when you thought our fries couldn't get any better...</p>
+
+----
+
+Ingredients:
+
+- allergens/skin-on-fries
+- allergens/byron-cheese-sauce
+
+----
+
+Preparation-allergens:
+
+- allergens/fish
+- allergens/crustaceans
+- allergens/molluscs
+- allergens/egg
+- allergens/celery
+- allergens/mustard
+- allergens/sesame-seeds
+- allergens/sulphur-dioxide
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

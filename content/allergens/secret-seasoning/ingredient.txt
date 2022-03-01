@@ -1,0 +1,19 @@
+Title: secret seasoning
+
+----
+
+Allergens:
+
+- allergens/garlic
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: true
+
+----
+
+Is-gluten-free: true

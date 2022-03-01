@@ -1,0 +1,63 @@
+Title: Mini Classic
+
+----
+
+Menu-image:
+
+- burger_17.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- >
+  mini-classic-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p>Succulent&nbsp;Beef patty, lettuce, tomato, ketchup.&nbsp;Served well&nbsp;done.&nbsp;<br><br><em>Keep the mini humans in your life quiet (and happy!) without the need for an iPad. Win&nbsp;win.&nbsp;</em></p>
+
+----
+
+Ingredients:
+
+- allergens/3oz-kids-patty
+- allergens/byron-kids-bun
+- allergens/ketchup
+- allergens/lettuce
+- allergens/tomato
+
+----
+
+Preparation-allergens:
+
+- allergens/egg
+- allergens/soya
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

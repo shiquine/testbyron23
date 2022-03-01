@@ -1,0 +1,39 @@
+Title: Allergen Safety
+
+----
+
+Intro-text: <p>We take allergen safety seriously.</p><p>If you have an allergy, you have to let us know and you must read the Allergen Guide below.</p>
+
+----
+
+More-button-text: Read more about our allergen safety policies.
+
+----
+
+More-text: <p>Over and above the legal allergen regulations, which Byron has&nbsp;always adhered to, we have developed and added extra safeguards as follows:</p><ul><li><p>Every member of staff has undergone allergen&nbsp;management training</p></li><li><p>Every customer will be asked if they have an allergy or any dietary requirements when being seated.</p></li><li><p>The allergy remover pop-up window ('Have you asked about allergies?') flashes up on the till screen before&nbsp;inputting the order. The allergy message is&nbsp;then recorded on the till receipt that is sent to the kitchen as the&nbsp;order is taken.&nbsp;This member of staff will also verbally alert the&nbsp;kitchen team about the&nbsp;allergy</p></li><li><p>An additional flyer and/or sticker is placed on every table to&nbsp;remind customers to&nbsp;inform the staff of the allergy</p></li><li><p>The Byron Allergen Guide includes&nbsp;detailed&nbsp;sections for those&nbsp;avoiding&nbsp;certain allergens (avoiding dairy, avoiding gluten, vegan/plant based&nbsp;diet)</p></li><li><p>Training videos are&nbsp;available for staff: all new starters have to watch the video and formal allergy training is done periodically - Allergy refreshers are a part of menu training</p></li></ul><p>Please contact us at&nbsp;<a href="mailto:hello@byron.co.uk" rel="noopener noreferrer nofollow">hello@byron.co.uk</a>&nbsp;if you have any questions</p>
+
+----
+
+Guide-pdf:
+
+- allergy-guide-july-2021.pdf
+
+----
+
+Guide-text: <p>Browse our menu products to find out what allergens they contain.</p>
+
+----
+
+No-allergens-text: <p>None.</p>
+
+----
+
+End-text: <p>(**) NGCI — We are providing information to consumers on the absence or reduced presence of Gluten in food. This product is made without gluten, but there may be a risk of cross contamination.</p><p>(*) Whilst these products do not contain the listed allergen, our lovely suppliers have asked us to warn you that one of the component ingredients is made in an environment where this allergen is present. Therefore, cross-contamination, whilst unlikely, is possible.</p><p>We do not declare every ingredient used within a dish on this menu, and recipes may be subject to change. We will do our very best to accommodate you, and whilst every effort is made to minimise cross-contamination, our ingredients are manufactured, and our dishes are prepared, in environments where allergens are present. We cannot therefore guarantee that any item on our menu is 100% allergen-free. If you have further questions, you must speak to the Manager.</p>
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

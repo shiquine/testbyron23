@@ -1,0 +1,96 @@
+.Article {
+  @include full-width-container;
+  padding-bottom: var(--margin);
+}
+
+.Article-banner {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+
+  //  Close up gap to header
+  margin-top: calc(var(--margin) * -1);
+  margin-bottom: var(--margin);
+}
+
+.Article-bannerImage {
+  width: 100%;
+  height: auto;
+}
+
+.Article-banner--swap .Article-bannerImage--mobile {
+  @include media-query(medium) {
+    display: none;
+  }
+}
+
+.Article-banner--swap .Article-bannerImage--full {
+  @include media-query(medium, max) {
+    display: none;
+  }
+}
+
+.Article-title {
+  @include boxed-title;
+  margin-right: auto;
+  margin-bottom: var(--margin);
+  margin-left: auto;
+}
+
+body[data-template="campaign"] .Article-title {
+  @include boxed-title($color: var(--background));
+}
+
+.Article-date {
+  margin-top: calc(var(--margin) * -0.5);
+  margin-bottom: var(--margin);
+
+  @include copy;
+  text-align: center;
+}
+
+.Article-content {
+  @include content-max-width;
+  @include copy-styles;
+  @include copy;
+}
+
+.Article-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: calc((var(--margin) * 2) - 7px);
+
+  @include product-link;
+}
+
+.Article-links--nextOnly {
+  justify-content: flex-end;
+}
+
+.Article-links a {
+  flex: 1;
+  color: $red;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.Article-prev {
+  padding-right: 1em;
+}
+
+.Article-prev:before {
+  content: "< ";
+}
+
+.Article-next {
+  padding-left: 1em;
+  text-align: right;
+}
+
+.Article-next:after {
+  content: " >";
+}

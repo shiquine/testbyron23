@@ -1,0 +1,116 @@
+Title: Leeds
+
+----
+
+Featured-image:
+
+- leeds-in.png
+
+----
+
+Gallery:
+
+- leeds-in.png
+- leeds-out.png
+- leeds-in-2.png
+
+----
+
+Description: 
+
+----
+
+Tags: Free WiFi, Wheelchair access, Vegan, Large parties, Outdoor seating
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 12:00:00
+  closing_time: 22:30:00
+- 
+  day: Friday
+  opening_time: 12:00:00
+  closing_time: 23:00:00
+- 
+  day: Saturday
+  opening_time: 11:00:00
+  closing_time: 23:00:00
+- 
+  day: Sunday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: 9A Lands Lane
+
+----
+
+Address-line-two: 
+
+----
+
+Address-city: Leeds
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: LS1 6AW
+
+----
+
+Address-lat: 53.7979637
+
+----
+
+Address-lng: -1.5437424
+
+----
+
+Phone: 01132 471502
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>Leeds City Train Station</strong></p>
+
+----
+
+What-three-words: sides.rush.pardon
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

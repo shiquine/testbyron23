@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://byron.co.uk/sitemap.xml

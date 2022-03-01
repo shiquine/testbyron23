@@ -1,0 +1,31 @@
+Title: Our Restaurants
+
+----
+
+Finder-image:
+
+- find_restaurant.png
+
+----
+
+Error-message-api: ERROR: Beats the hell out of me, but something went wrong. At least we still have burgers. Head to the locations list to get your hands on the good stuff.
+
+----
+
+Error-message-no-results: ERROR: Beats the hell out of me, but something went wrong. At least we still have burgers. Head to the locations list to get your hands on the good stuff.
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

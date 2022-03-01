@@ -1,0 +1,26 @@
+.Menu {
+}
+
+.Menu-title {
+  @include hidden;
+}
+
+.Menu-allergensLink {
+  @include full-width-container;
+  display: flex;
+  justify-content: center;
+
+  margin-top: calc(var(--margin) * 2);
+  margin-bottom: calc(var(--margin) * 2);
+}
+
+.Menu-allergensLink a {
+  @include boxed-title;
+  background-color: $red;
+  text-align: center;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}

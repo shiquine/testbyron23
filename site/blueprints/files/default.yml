@@ -1,0 +1,11 @@
+title: File
+
+#  Accept all file types, including `code`
+accept: true
+
+fields:
+  info:
+    type: info
+    label: Info
+    text: |
+      Nothing more to do here...

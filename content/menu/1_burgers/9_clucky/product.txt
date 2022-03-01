@@ -1,0 +1,63 @@
+Title: Clucky
+
+----
+
+Menu-image:
+
+- burger_aw_8.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- clucky-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: chicken,blue
+
+----
+
+Description: <p>Grilled or crispy buttermilk-fried chicken, smashed avocado, sriracha mayo, pickled red onions, pickles,&nbsp;lettuce.<br>&nbsp;<br><em>A choice even ‘Adriaaaaan’ would be proud of. Our first ever chicken special was known as ‘Clucky Balboa’ and made an appearance when one of the Rocky Balboa films hit the big screen. Shout from the rooftop kind of stuff right here.&nbsp;</em></p>
+
+----
+
+Ingredients:
+
+- allergens/buttermilk-fried-chicken
+- allergens/smashed-avocado
+- allergens/sriracha-mayo
+- allergens/pickled-red-onion
+- allergens/pickles
+- allergens/lettuce
+- allergens/byron-bun
+
+----
+
+Preparation-allergens:
+
+- allergens/soya
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

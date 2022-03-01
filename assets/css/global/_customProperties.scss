@@ -1,0 +1,73 @@
+:root {
+  //  Grid
+  --gridColumns: 4;
+  --gridGap: 10px;
+
+  --margin: 20px;
+
+  --oneColumn: (
+    (
+        (100vw - (var(--margin) * 2)) -
+          (var(--gridGap) * (var(--gridColumns) - 1))
+      ) / var(--gridColumns)
+  );
+
+  --maxWidthBasis: 1080px;
+  --maxWidth: calc(var(--maxWidthBasis) + var(--margin) + var(--margin));
+  --extraMaxWidth: calc(
+    var(--maxWidthBasis) + (var(--oneColumnOfMaxWidth) * 4) +
+      (var(--gridGap) * 4)
+  );
+
+  //  contentMaxWidth is essentially 34em at the copy() mixin
+  --contentMaxWidth: calc(16px * 34);
+
+  --slidePaddingRight: calc(var(--margin) + 12px);
+  --slidePaddingLeft: calc(var(--oneColumn) + var(--margin) + var(--gridGap));
+
+  //  The outside edge will take you from the edge of the window to the outside edge of the first column in the grid
+  --outsideEdge: calc((100vw - var(--maxWidthBasis)) / 2);
+
+  --storyCarouselMaxWidth: calc(
+    var(--maxWidth) - var(--margin) - var(--margin)
+  );
+
+  //  Elements
+  --headerHeight: 80px;
+
+  @include media-query(medium) {
+    --gridColumns: 6;
+    --gridGap: 18px;
+
+    --margin: 30px;
+
+    --headerHeight: 70px;
+
+    --contentMaxWidth: calc(18px * 34);
+
+    --slidePaddingRight: var(--margin);
+    --slidePaddingLeft: var(--margin);
+
+    --oneColumnOfMaxWidth: (
+      (
+          100vw - var(--margin) - var(--margin) -
+            (var(--gridGap) * (var(--gridColumns) - 1))
+        ) / var(--gridColumns)
+    );
+
+    --storyCarouselMaxWidth: calc((var(--maxWidthBasis) - var(--gridGap)) / 2);
+  }
+
+  @include media-query(large) {
+    --gridGap: 21px;
+    --contentMaxWidth: calc(21px * 34);
+    --headerHeight: 90px;
+  }
+
+  @include media-query(x-large) {
+    --oneColumnOfMaxWidth: (
+      (var(--maxWidthBasis) - (var(--gridGap) * (var(--gridColumns) - 1))) /
+        var(--gridColumns)
+    );
+  }
+}

@@ -1,0 +1,44 @@
+#
+#  SEO Tab
+#
+
+label: SEO
+columns:
+  - width: 1/3
+    sticky: true
+    sections:
+      #
+      #  Files
+      #
+      files:
+        type: files
+        width: 1/2
+        image:
+          back: black
+          cover: true
+
+  - width: 1/2
+    sections:
+      #
+      #  SEO
+      #
+      seo:
+        type: fields
+        fields:
+          meta_description:
+            label: Description
+            type: textarea
+            size: small
+            buttons: false
+            help: |
+              This will be shown as the page description on search engines.
+              Max length ~300 characters.
+
+          meta_image:
+            label: Social Media Image
+            type: files
+            multiple: false
+            image:
+              back: black
+              cover: true
+            help: This will be shown when the page is shared on social media.

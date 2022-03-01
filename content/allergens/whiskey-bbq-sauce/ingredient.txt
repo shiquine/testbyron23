@@ -1,0 +1,19 @@
+Title: whiskey BBQ sauce
+
+----
+
+Allergens:
+
+- allergens/soya
+
+----
+
+Is-vegetarian: false
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: false

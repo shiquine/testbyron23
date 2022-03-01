@@ -1,0 +1,58 @@
+Title: Mini nuggets
+
+----
+
+Menu-image:
+
+- burger_21.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- >
+  mini-nuggets-with-salad_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>If they’re yet to face the wonderful world of burgers, these are a classic winner.&nbsp;</em></p>
+
+----
+
+Ingredients:
+
+- allergens/chicken-bites
+
+----
+
+Preparation-allergens:
+
+- allergens/soya
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

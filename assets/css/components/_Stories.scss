@@ -1,0 +1,135 @@
+.Stories {
+}
+
+.Stories--product {
+  @include full-width-container;
+  padding-top: var(--margin);
+}
+
+.Stories--carousel {
+  // max-width: var(--extraMaxWidth);
+  // margin-right: auto;
+  // margin-left: auto;
+}
+
+.Stories ul {
+}
+
+//  TODO: This should only happen if there are multiple stories added, add a class in that case
+.Stories--product ul {
+  @include media-query(medium) {
+    columns: 2;
+    column-gap: var(--gridGap);
+  }
+}
+
+.Story {
+  // <li>
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Story--product {
+  padding-bottom: var(--margin);
+
+  @include media-query(medium) {
+    //  Prevent breaking inside a column
+    break-inside: avoid;
+  }
+}
+
+.Story--carousel {
+  width: calc(100vw - 88px);
+
+  @include media-query(medium) {
+    width: calc((var(--maxWidthBasis) - var(--gridGap)) / 2);
+    max-width: calc(
+      (100vw - var(--margin) - var(--margin) - var(--gridGap)) / 2
+    );
+  }
+}
+
+.Story-title {
+  @include type("section-title");
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.Story--product .Story-title {
+  margin-bottom: 9px;
+}
+
+.Story-media {
+  order: -1;
+  width: 100%;
+}
+
+.Story--product .Story-media {
+  margin-bottom: 20px;
+
+  @include media-query(medium) {
+    margin-bottom: 25px;
+  }
+}
+
+.Story--carousel .Story-media {
+  position: relative;
+  height: 0;
+  padding-bottom: 71.43%; // 5:7
+  margin-bottom: 10px;
+
+  @include media-query(medium) {
+    margin-bottom: 14px;
+  }
+}
+
+.Story--product .Story-media img,
+.Story--product .Story-media video {
+  width: 100%;
+  height: auto;
+}
+
+.Story--carousel .Story-media img,
+.Story--carousel .Story-media video {
+  @include absolute-fill;
+  object-fit: cover;
+}
+
+.Story-media img {
+}
+
+.Story-media video {
+}
+
+.Story-description {
+  @include copy-styles;
+  @include type("copy");
+}
+
+a.Story-link {
+  //  <a>
+  @include product-link;
+  color: $red;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
+  &:after {
+    content: " >";
+  }
+}
+
+//  Cover the whole item with a link to the location
+a.Story-link:before {
+  content: "";
+  @include absolute-fill;
+  z-index: 1;
+}
+
+.Story--product a.Story-link {
+  margin-top: 13px;
+  margin-bottom: -5px;
+}

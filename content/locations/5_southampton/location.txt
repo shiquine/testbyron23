@@ -1,0 +1,116 @@
+Title: Southampton
+
+----
+
+Featured-image:
+
+- img_0341.jpg
+
+----
+
+Gallery:
+
+- img_0566.jpg
+- img_1241.jpg
+- img_0370.jpg
+
+----
+
+Description: 
+
+----
+
+Tags: Wheelchair access, Free WiFi, Outdoor seating, Large parties, Vegan
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Friday
+  opening_time: 11:30:00
+  closing_time: 23:00:00
+- 
+  day: Saturday
+  opening_time: 11:00:00
+  closing_time: 23:00:00
+- 
+  day: Sunday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: Westquay South
+
+----
+
+Address-line-two: 
+
+----
+
+Address-city: Southampton
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: SO15 1QF
+
+----
+
+Address-lat: 50.902261
+
+----
+
+Address-lng: -1.406899
+
+----
+
+Phone: 02380 633011
+
+----
+
+Email: 
+
+----
+
+Map-caption: 
+
+----
+
+What-three-words: facing.broken.sobs
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

@@ -1,0 +1,21 @@
+Title: onion gravy
+
+----
+
+Allergens:
+
+- allergens/celery
+- allergens/garlic
+- allergens/sulphur-dioxide
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: true
+
+----
+
+Is-gluten-free: true

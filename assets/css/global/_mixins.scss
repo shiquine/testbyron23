@@ -1,0 +1,775 @@
+//
+//  Media-Queries (mixin)
+//  @include media-query(small) { width: 50%; }
+//  @include media-query(small, max) { width: 50%; }
+//  The $direction parameter will default to 'min', but can be 'max'
+
+@mixin media-query($breakpoint, $direction: min) {
+  $small: $break--small;
+  $medium: $break--medium;
+  $large: $break--large;
+  $x-large: $break--x-large;
+
+  //  If a max-width query, take 1 off the breakpoints, prevents a min-width
+  //  and max-width query being simultaneously active on 1 breakpoint
+  @if $direction == "max" {
+    $small: ($small - 1);
+    $medium: ($medium - 1);
+    $large: ($large - 1);
+    $x-large: ($x-large - 1);
+  }
+
+  //  Min
+  @if $breakpoint == min {
+    @media (#{$direction}-width: $min-width) {
+      @content;
+    }
+  }
+
+  //  Small
+  @else if $breakpoint == small {
+    @media (#{$direction}-width: $small) {
+      @content;
+    }
+  }
+
+  //  Medium
+  @else if $breakpoint == medium {
+    @media (#{$direction}-width: $medium) {
+      @content;
+    }
+  }
+
+  //  Large
+  @else if $breakpoint == large {
+    @media (#{$direction}-width: $large) {
+      @content;
+    }
+  }
+
+  //  X-Large
+  @else if $breakpoint == x-large {
+    @media (#{$direction}-width: $x-large) {
+      @content;
+    }
+  }
+
+  //  Max-width
+  @else if $breakpoint == max {
+    @media (#{$direction}-width: $max-width) {
+      @content;
+    }
+  }
+}
+
+//
+//  Clearfix
+//  @include clearfix;
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+//
+//  Visually Hidden
+//  For when display: none isn't appropriate, e.g. for
+//  elements that are useful for accessibility but should not
+//  be seen
+//  See: https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/
+
+//  @include hidden;
+
+@mixin hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+//
+//  Custom Underline
+//  @include underline($black, $red, 2px, -0.5em);
+//  @include underline(
+//    $bg: $white,
+//    $color: currentColor,
+//    $thickness: 1px,
+//    $position: -0.25em,
+//    $offsetX: -0.05em,
+//  );
+
+@mixin underline(
+  $bg: $white,
+  $color: currentColor,
+  $thickness: 1px,
+  $position: -0.25em,
+  $offsetX: 0
+) {
+  //  For underline, see: https://css-tricks.com/styling-underlines-web/
+  display: inline;
+  background-size: 1px 1em;
+  box-shadow: inset $offsetX $position $bg,
+    inset 0 calc(#{$position} - #{$thickness}) $color;
+}
+
+//
+//  Strip Unit
+//  see: http://www.sassmeister.com/gist/7f22e44ace49b5124eec
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+//
+//  Fluid
+//  Scale a measurement between a min and max between two break points
+//  the values have to be in pixels, same as media queries
+//  Pattern:
+//
+//  el {
+//    width: 10px;
+//
+//    @include media-query(min) {
+//       @include fluid(width, min, max, 10px, 100px);
+//    }
+//
+//    @include media-query(max) {
+//      width: 100px;
+//    }
+//  }
+
+@mixin fluid(
+  $properties,
+  $minimum-break,
+  $maximum-break,
+  $min-size,
+  $max-size
+) {
+  //  Create the variables initially
+  $min-break: false;
+  $max-break: false;
+
+  //  Set values based on breakpoints
+  @if $minimum-break == "min" {
+    $min-break: $min-width;
+  } @else if $minimum-break == "small" {
+    $min-break: $break--small;
+  } @else if $minimum-break == "medium" {
+    $min-break: $break--medium;
+  } @else if $minimum-break == "large" {
+    $min-break: $break--large;
+  } @else if $minimum-break == "x-large" {
+    $min-break: $break--x-large;
+  } @else if $minimum-break == "max" {
+    $min-break: $max-width;
+  }
+
+  @if $maximum-break == "min" {
+    $max-break: $min-width;
+  } @else if $maximum-break == "small" {
+    $max-break: $break--small;
+  } @else if $maximum-break == "medium" {
+    $max-break: $break--medium;
+  } @else if $maximum-break == "large" {
+    $max-break: $break--large;
+  } @else if $maximum-break == "x-large" {
+    $max-break: $break--x-large;
+  } @else if $maximum-break == "max" {
+    $max-break: $max-width;
+  }
+
+  //  Work out differences to simplify calc expression for browser
+  $break-diff: (strip-unit($max-break) - strip-unit($min-break));
+  $size-diff: (strip-unit($max-size) - strip-unit($min-size));
+
+  @each $property in $properties {
+    #{$property}: calc(
+      #{$min-size} +
+        ((#{$size-diff} * (100vw - #{$min-break})) / #{$break-diff})
+    );
+  }
+}
+
+//
+//  No Margin on Last Child
+//  @include no-margin-on-last-child;
+
+@mixin no-margin-on-last-child {
+  //  Last element
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+//
+//  Type
+//  @include type('h1-m', 'h1');
+//  @include type('h1-m', 'h1', small, medium);
+//  @include type('h1');
+
+//  Define all type sizes in an array. Values must be in pixels for
+//  use in the fluid mixin.
+$type-sizes: (
+  h1: (
+    font-size: 96px,
+    line-height: 96px,
+    letter-spacing: 0px,
+  ),
+  h1-m: (
+    font-size: 48px,
+    line-height: 48px,
+    letter-spacing: 0px,
+  ),
+  nav-mobile: (
+    font-size: 44px,
+    line-height: 64px,
+    letter-spacing: 2.2px,
+    // 0.05em
+  ),
+  section-title-large: (
+    font-size: 34px,
+    line-height: 34px,
+    letter-spacing: 1.7px,
+    // 0.05em
+  ),
+  section-title-medium: (
+    font-size: 30px,
+    line-height: 31px,
+    // +1px to avoid cut-off in iOS
+    letter-spacing: 1.5px,
+    // 0.05em
+  ),
+  section-title: (
+    font-size: 28px,
+    line-height: 29px,
+    // +1px to avoid cut-off in iOS
+    letter-spacing: 1.4px,
+    // 0.05em
+  ),
+  section-title-small: (
+    font-size: 24px,
+    line-height: 24px,
+    letter-spacing: 1.2px,
+    // 0.05em
+  ),
+  small-title: (
+    font-size: 16px,
+    // +1px to avoid cut-off in iOS
+    line-height: 17px,
+    //  no tracking
+  ),
+  tiny-title: (
+    font-size: 18px,
+    line-height: 18px,
+    letter-spacing: 0.9px,
+    // 0.05em
+  ),
+  tiny-title-m: (
+    font-size: 12px,
+    line-height: 12px,
+    letter-spacing: 0.6px,
+    // 0.05em
+  ),
+  copy-large: (
+    font-size: 21px,
+    line-height: 25.2px,
+  ),
+  copy-medium: (
+    font-size: 18px,
+    line-height: 21.6px,
+  ),
+  copy: (
+    font-size: 16px,
+    line-height: 19.2px,
+  ),
+  copy-small: (
+    font-size: 14px,
+    line-height: 16.8px,
+    letter-spacing: 0.7px,
+    // 0.05em
+  ),
+  copy-smaller: (
+    font-size: 12px,
+    line-height: 14.4px,
+  ),
+  copy-micro: (
+    font-size: 10px,
+    line-height: 10px,
+  ),
+  button-medium: (
+    font-size: 24px,
+    line-height: 24px,
+    letter-spacing: 1.2px,
+    // 0.05em
+  ),
+  button: (
+    font-size: 20px,
+    line-height: 20px,
+    letter-spacing: 1px,
+    // 0.05em
+  ),
+);
+
+//  Create a function that grabs a value from the $type-sizes array.
+//  This is just syntactic sugar.
+@function type-prop($property, $size) {
+  @return map-get(map-get($type-sizes, $size), $property);
+}
+
+//  At its simplest, the type mixin takes a named type size and returns
+//  the values set in the $type-sizes array. More complex, it takes a
+//  start and end size, along with breakpoints, and scales the type
+//  between them.
+@mixin type($startSize, $endSize: false, $startBreak: min, $endBreak: max) {
+  //  Save values as variables
+  $font-size--start: type-prop(font-size, $startSize);
+  $line-height--start: type-prop(line-height, $startSize);
+  $letter-spacing--start: type-prop(letter-spacing, $startSize);
+
+  //  If the $startBreak is min, set these values as the default.
+  @if ($startBreak == min) {
+    font-size: $font-size--start;
+    line-height: $line-height--start;
+    letter-spacing: $letter-spacing--start;
+  }
+
+  //  If an end size is specified, fluidly scale between values
+  @if ($endSize) {
+    $font-size--end: type-prop(font-size, $endSize);
+    $line-height--end: type-prop(line-height, $endSize);
+    $letter-spacing--end: type-prop(letter-spacing, $endSize);
+
+    @include media-query(#{$startBreak}) {
+      //  Only scale values if they actually change
+      @if ($font-size--start != $font-size--end) {
+        @include fluid(
+          font-size,
+          #{$startBreak},
+          #{$endBreak},
+          $font-size--start,
+          $font-size--end
+        );
+      }
+
+      @if ($line-height--start != $line-height--end) {
+        @include fluid(
+          line-height,
+          #{$startBreak},
+          #{$endBreak},
+          $line-height--start,
+          $line-height--end
+        );
+      }
+
+      @if ($letter-spacing--start != $letter-spacing--end) {
+        @include fluid(
+          letter-spacing,
+          #{$startBreak},
+          #{$endBreak},
+          $letter-spacing--start,
+          $letter-spacing--end
+        );
+      }
+    }
+
+    @include media-query(#{$endBreak}) {
+      //  Only specify values if they actually change
+      @if ($font-size--start != $font-size--end) {
+        font-size: $font-size--end;
+      }
+
+      @if ($line-height--start != $line-height--end) {
+        line-height: $line-height--end;
+      }
+
+      @if ($letter-spacing--start != $letter-spacing--end) {
+        letter-spacing: $letter-spacing--end;
+      }
+    }
+  }
+}
+
+//
+//  Type Mixins
+//  @include section-title;
+
+@mixin nav-text {
+  @include type("nav-mobile");
+  text-transform: uppercase;
+  font-weight: 900;
+
+  @include media-query(medium) {
+    @include type("copy");
+  }
+
+  @include media-query(large) {
+    @include type("copy-large");
+  }
+}
+
+@mixin section-title-large {
+  @include type("section-title-large");
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+@mixin section-title {
+  @include type("section-title");
+  text-transform: uppercase;
+  font-weight: 900;
+
+  @include media-query(medium) {
+    @include type("section-title-medium");
+  }
+
+  @include media-query(large) {
+    @include type("section-title-large");
+  }
+}
+
+@mixin section-title-small {
+  @include type("section-title-small");
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+@mixin small-title {
+  @include type("small-title");
+  text-transform: uppercase;
+  font-weight: 900;
+
+  @include media-query(medium) {
+    @include type("section-title-small");
+  }
+}
+
+@mixin tiny-title {
+  @include type("tiny-title-m");
+  text-transform: uppercase;
+  font-weight: 900;
+
+  @include media-query(medium) {
+    @include type("tiny-title");
+  }
+}
+
+@mixin product-link {
+  @include type("copy");
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+
+  @include media-query(medium) {
+    @include type("copy-medium");
+  }
+}
+
+@mixin copy {
+  @include type("copy");
+
+  @include media-query(medium) {
+    @include type("copy-medium");
+  }
+
+  @include media-query(large) {
+    @include type("copy-large");
+  }
+}
+
+@mixin button-text {
+  @include type("button");
+  text-transform: uppercase;
+  font-weight: 900;
+
+  @include media-query(medium) {
+    @include type("button-medium");
+  }
+}
+
+@mixin boxed-title--large($bg: $black, $color: $putty) {
+  width: max-content;
+
+  padding-top: 19px;
+  padding-right: 9px;
+  padding-bottom: 7px;
+  padding-left: 9px;
+
+  background-color: $bg;
+  color: $color;
+
+  @include section-title-large;
+}
+
+@mixin boxed-title($bg: $black, $color: $putty) {
+  width: max-content;
+  max-width: 100%;
+
+  padding-top: 9px;
+  padding-right: 9px;
+  padding-left: 9px;
+
+  background-color: $bg;
+  color: $color;
+
+  @include section-title;
+  text-align: center;
+
+  @include media-query(medium) {
+    padding-top: 13px;
+    padding-right: 18px;
+    padding-bottom: 2px;
+    padding-left: 18px;
+  }
+}
+
+@mixin boxed-title--small($bg: $black, $color: $putty) {
+  width: max-content;
+
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+
+  background-color: $bg;
+  color: $color;
+
+  @include section-title-small;
+  text-transform: none;
+  text-align: center;
+}
+
+//
+//  Copy Styles
+//  @include copy-styles;
+
+@mixin copy-styles($highlight: $red) {
+  //  Links
+  a {
+    text-decoration: underline;
+    transition: all $transition;
+
+    &:hover,
+    &:focus {
+      color: $highlight;
+    }
+  }
+
+  a.BigLink {
+    text-decoration: none;
+    color: $highlight;
+    // margin-bottom: 13px;
+
+    &:hover,
+    &:focus {
+      .BigLink-inner {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .BigLink:last-child {
+    margin-top: calc(var(--margin) + 3px);
+  }
+
+  //  First element
+  & > *:first-child {
+    margin-top: 0;
+  }
+
+  //  Last element
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+
+  //  Horizontal Rules
+  hr {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 1px;
+    width: 100%;
+    background-color: currentColor;
+    border: none; // reset
+  }
+
+  //  Lists
+  ol,
+  ul {
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+
+  li {
+    &:not(:last-of-type) {
+      margin-bottom: 0.25em;
+    }
+  }
+
+  //  Headings
+  h1,
+  h2 {
+    @include section-title;
+    letter-spacing: 0;
+    text-transform: none;
+    margin-bottom: calc(var(--margin) - 10px);
+  }
+
+  p + h1,
+  p + h2 {
+    margin-top: calc(var(--margin) + 10px);
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include small-title;
+    margin-bottom: calc(var(--margin) - 6px);
+  }
+
+  p + h3,
+  p + h4,
+  p + h5,
+  p + h6 {
+    margin-top: calc(var(--margin) + 6px);
+  }
+
+  //  Media
+  figure,
+  video,
+  iframe,
+  .ImageBlock {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: var(--margin);
+    margin-right: 0;
+    margin-bottom: var(--margin);
+    margin-left: 0;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    // max-height: 300px;
+    width: 100%;
+    height: auto;
+    margin-top: var(--margin);
+    margin-right: auto;
+    margin-bottom: var(--margin);
+    margin-left: auto;
+  }
+
+  .ImageBlock img,
+  figure img {
+    margin-bottom: 0; // will be on the caption
+  }
+
+  figcaption {
+    @include type("copy-smaller");
+    margin-top: 9px;
+    margin-bottom: -6px;
+    max-width: 480px;
+
+    @include media-query(medium) {
+      @include type("copy-small");
+      letter-spacing: 0;
+    }
+  }
+
+  figure iframe + figcaption {
+    margin-top: -11px;
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin-bottom: 0.75em;
+  }
+
+  //  Don’t show empty <p>s which can be added in the content
+  //  editor accidentally
+  p:empty {
+    display: none;
+  }
+}
+
+//
+//  Full Width Container
+//  @include full-width-container;
+
+@mixin full-width-container {
+  width: 100%;
+  max-width: var(--maxWidth);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--margin);
+  padding-left: var(--margin);
+}
+
+//
+//  Content Max Width
+//  @include content-max-width;
+
+@mixin content-max-width {
+  max-width: var(--contentMaxWidth);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+//
+//  Basic Grid
+//  @include basic-grid;
+
+@mixin basic-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--gridColumns), 1fr);
+  gap: var(--gridGap);
+}
+
+//
+//  Absolute Fill
+//  @include absolute-fill;
+
+@mixin absolute-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+//
+//  Inherit all font styles
+//  @include inherit-all-font-styles;
+
+@mixin inherit-all-font-styles {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
+//
+//  Tint and Shade
+//  See: https://css-tricks.com/snippets/sass/tint-shade-functions/
+
+@function tint($color, $percentage) {
+  @return mix($white, $color, $percentage);
+}
+
+@function shade($color, $percentage) {
+  @return mix($black, $color, $percentage);
+}

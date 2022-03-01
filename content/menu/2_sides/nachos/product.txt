@@ -1,0 +1,58 @@
+Title: nachos
+
+----
+
+Menu-image: 
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- nachos_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>Crunchy tortilla chips oozing&nbsp;with&nbsp;Cheddar cheese,&nbsp;freshly&nbsp;smashed avocado, salsa, sour cream, red&nbsp;chillies,&nbsp;jalapeños&nbsp;and&nbsp;coriander.&nbsp;Comfort in a bowl.</em>&nbsp;</p>
+
+----
+
+Ingredients:
+
+- allergens/tortillas
+- allergens/cheddar-cheese
+- allergens/sour-cream
+- allergens/red-chilli
+- allergens/coriander
+- allergens/salsa
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

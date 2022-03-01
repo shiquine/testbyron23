@@ -1,0 +1,197 @@
+Title: Squeeze Balls
+
+----
+
+Bg-colour: #e9deca
+
+----
+
+Banner-image:
+
+- mac-squeeze_logo_blue_smaller_2.png
+
+----
+
+Banner-image-mobile: 
+
+----
+
+Featured-image:
+
+- 0p4a6158.png
+
+----
+
+Text:
+
+[
+    {
+        "content": {
+            "image": [
+                "0p4a6158.png"
+            ],
+            "src": "",
+            "alt": "",
+            "caption": ""
+        },
+        "id": "6f397be7-c2a2-47fe-a3e4-cacc29e082bb",
+        "isHidden": false,
+        "type": "image"
+    },
+    {
+        "content": {
+            "text": "<p>It’s <strong>Testicular Cancer Awareness Month</strong> and we’re giving away free Mac and Cheese Balls to everyone who checks themselves (or encourages someone else to) during April.</p><p>Testicular cancer affects 2,500 men in the UK each year, and during the pandemic missed screenings have resulted in cancers going undetected.</p><p>So, we’ve partnered with Testicular Cancer UK to create&nbsp;a handy guide for how to give The Boys a proper squeeze, which you’ll find on our burger wraps all month. Happy rummaging!</p>"
+        },
+        "id": "5284e108-a34c-4d8a-a8d8-c60ff3474130",
+        "isHidden": false,
+        "type": "text"
+    },
+    {
+        "content": {
+            "image": [
+                "byr_balls_pr-compositions.png"
+            ],
+            "src": "",
+            "alt": "",
+            "caption": ""
+        },
+        "id": "dfbdcd84-027a-48b3-9db4-fce4873d3da3",
+        "isHidden": false,
+        "type": "image"
+    },
+    {
+        "content": {
+            "level": "h2",
+            "text": "How to Check Yourself"
+        },
+        "id": "6b30ad29-9b60-42bf-aa2d-6917d44baf44",
+        "isHidden": false,
+        "type": "heading"
+    },
+    {
+        "content": {
+            "text": "<p>Use this four-step guide, illustrated by the brilliant <a href=\"https://www.joshmckenna.co.uk/\" rel=\"noopener noreferrer nofollow\">Josh McKenna</a>, as a reference&nbsp;for how to conduct your investigation. If you find anything unusual, speak to your GP.</p><p><strong>STEP 1:</strong> Get your balls hot and steamy in the shower</p><p><strong>STEP 2</strong>: Roll one ball between thumb and fingers to check for lumps,&nbsp;swelling or changes in size and shape</p><p><strong>STEP 3:</strong> Repeat for the other ball</p><p><strong>STEP 4:</strong> Squeeze monthly to check for any signs of change.</p>"
+        },
+        "id": "afde6cb4-bb3b-46e2-99d5-72b1e5bfcb8a",
+        "isHidden": false,
+        "type": "text"
+    },
+    {
+        "content": {
+            "image": [
+                "0p4a6200.png"
+            ],
+            "src": "",
+            "alt": "",
+            "caption": ""
+        },
+        "id": "3f5f6313-b820-4c74-92b8-1fa5240924f7",
+        "isHidden": false,
+        "type": "image"
+    },
+    {
+        "content": {
+            "level": "h2",
+            "text": "How to Claim Your Free Balls"
+        },
+        "id": "eb3465b7-7295-466b-b2d1-1a3eec5ec986",
+        "isHidden": false,
+        "type": "heading"
+    },
+    {
+        "content": {
+            "text": "<p>Simply add Mac &amp; Squeeze Balls to your basket when ordering for <a href=\"https://byron.wlwo-iorder.zonalconnect.com/#/venues/list\" rel=\"noopener noreferrer nofollow\">Collection</a>.&nbsp;&nbsp;</p><p>If you’ve bagged one of our outdoor tables after&nbsp;April 12th, call your server over, look them dead in the eye and declare: “Mac &amp; Squeeze Please.” They’ll do the rest.</p>"
+        },
+        "id": "b8deeef0-8006-4e97-a820-4f6c0f6d3383",
+        "isHidden": false,
+        "type": "text"
+    },
+    {
+        "content": {
+            "image": [
+                "0p4a6158.png"
+            ],
+            "src": "",
+            "alt": "",
+            "caption": ""
+        },
+        "id": "a37d2993-3a30-4e45-8baf-0b077d71575f",
+        "isHidden": false,
+        "type": "image"
+    },
+    {
+        "content": {
+            "level": "h2",
+            "text": "Our Charity Partner"
+        },
+        "id": "a269b9dc-57c2-462b-b749-92dd5bf80570",
+        "isHidden": false,
+        "type": "heading"
+    },
+    {
+        "content": {
+            "text": "<p>Testicular Cancer UK was founded in 2003 by Phil Morris and is run by survivors. It raises awareness of testicular cancer and offers round-the-clock support to those affected by it.</p><p>Phil has shared with us the reasons why he felt compelled to start the charity – <u><a href=\"https://www.byron.co.uk/byron-blog/i-didnt-want-anyone-else-to-have-no-one-to-talk-to\" rel=\"noopener noreferrer nofollow\">click here to read his story</a></u><a href=\"https://www.byron.co.uk/byron-blog/i-didnt-want-anyone-else-to-have-no-one-to-talk-to\" rel=\"noopener noreferrer nofollow\">.</a></p>"
+        },
+        "id": "a2cf9c38-7ea8-410f-bc4b-4345df054a2b",
+        "isHidden": false,
+        "type": "text"
+    },
+    {
+        "content": {
+            "image": [
+                "sticker_gif_black_shorter.gif"
+            ],
+            "src": "",
+            "alt": "",
+            "caption": ""
+        },
+        "id": "8f60b66b-7f03-4fb2-935e-724299fcd356",
+        "isHidden": false,
+        "type": "image"
+    },
+    {
+        "content": {
+            "level": "h2",
+            "text": "Spread the Word"
+        },
+        "id": "a4b47be7-72da-489a-b2bc-55526f794023",
+        "isHidden": false,
+        "type": "heading"
+    },
+    {
+        "content": {
+            "text": "<p>When your squeezing’s done, get involved with the #ICheckedMyBalls hashtag on Instagram and search “I Checked My Balls” to find our special Instagram Stories sticker.</p>"
+        },
+        "id": "d8acac7d-7ced-4eae-b069-c306e243ab98",
+        "isHidden": false,
+        "type": "text"
+    },
+    {
+        "content": {
+            "text": "<p>For <strong>Further Reading</strong>, check out Testicular Cancer UK’s <a href=\"https://www.testicularcanceruk.com/\" rel=\"noopener noreferrer nofollow\">website</a></p>"
+        },
+        "id": "9275aed4-03db-478c-8183-0fc2e6922307",
+        "isHidden": false,
+        "type": "text"
+    }
+]
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: It’s Testicular Cancer Awareness Month and we’re giving away free Mac and Cheese Balls to everyone who checks themselves (or encourages someone else to) during April.
+
+----
+
+Meta-image: 

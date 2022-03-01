@@ -1,0 +1,17 @@
+Title: truffle mushrooms
+
+----
+
+Allergens: 
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: true
+
+----
+
+Is-gluten-free: true

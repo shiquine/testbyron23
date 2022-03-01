@@ -1,0 +1,40 @@
+Title: Byron Club
+
+----
+
+Featured-image: 
+
+----
+
+Text:
+
+[
+    {
+        "content": {
+            "text": "<p><strong>Fancy free onion rings, Byron style?<br><br></strong>Join our exclusive Byron Club and get your hands on offers, sneak peeks and of course, free rings. </p><p>We got you.&nbsp;<br></p><p></p>"
+        },
+        "id": "d87a29bd-3324-4442-9636-aec61a79abd0",
+        "isHidden": false,
+        "type": "text"
+    }
+]
+
+----
+
+Form-consent-message: <p>Tick here to join Byron Club and allow us to send you emails with offers and news</p>
+
+----
+
+Form-thank-you-message: <p>Thank you! We’re excited to have you as a member and can’t wait to spoil you with all the perks of the Byron Club!</p>
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 
+
+----
+
+Form-thanks-message: <p>Thank you! We’re excited to have you as a member and can’t wait to spoil you with all the perks of the Byron Club!</p>

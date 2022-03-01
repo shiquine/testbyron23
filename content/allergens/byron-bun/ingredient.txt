@@ -1,0 +1,17 @@
+Title: Byron bun
+
+----
+
+Allergens: - allergens/gluten-containing-cereals
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: true
+
+----
+
+Is-gluten-free: false

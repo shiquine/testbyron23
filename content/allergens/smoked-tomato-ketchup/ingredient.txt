@@ -1,0 +1,20 @@
+Title: smoked tomato ketchup
+
+----
+
+Allergens:
+
+- allergens/celery
+- allergens/garlic
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: true
+
+----
+
+Is-gluten-free: true

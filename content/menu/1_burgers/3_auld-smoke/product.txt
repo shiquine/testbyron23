@@ -1,0 +1,64 @@
+Title: Auld Smoke
+
+----
+
+Menu-image:
+
+- burger_16.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- auld-smoke-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: beef,red
+
+----
+
+Description: <p>Haggis, 6oz beef patty, bacon, Cheddar cheese, crispy onions, mustard, whisky BBQ sauce, pickles, lettuce.<br><br><em>When American flavours crossed Scottish borders... listen to the bagpipes as you indulge in this beauty. </em></p>
+
+----
+
+Ingredients:
+
+- allergens/6oz-beef-patty
+- allergens/haggis
+- allergens/bacon
+- allergens/cheddar-cheese
+- allergens/crispy-onions
+- allergens/american-mustard
+- allergens/whiskey-bbq-sauce
+- allergens/pickles
+- allergens/lettuce
+- allergens/byron-bun
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

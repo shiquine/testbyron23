@@ -1,0 +1,19 @@
+Title: blue cheese
+
+----
+
+Allergens:
+
+- allergens/milk
+
+----
+
+Is-vegetarian: false
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

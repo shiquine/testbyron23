@@ -1,0 +1,116 @@
+Title: Manchester
+
+----
+
+Featured-image:
+
+- 4k6a8650.jpg
+
+----
+
+Gallery:
+
+- 4k6a8650.jpg
+- 4k6a8922.jpg
+- 4k6a8604.jpg
+
+----
+
+Description: 
+
+----
+
+Tags: Free WiFi, Wheelchair access, Vegan, Large parties, Local sites, Outdoor seating
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 12:00:00
+  closing_time: 22:30:00
+- 
+  day: Friday
+  opening_time: 11:00:00
+  closing_time: 23:00:00
+- 
+  day: Saturday
+  opening_time: 11:00:00
+  closing_time: 23:00:00
+- 
+  day: Sunday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: 1 Piccadilly Gardens
+
+----
+
+Address-line-two: 
+
+----
+
+Address-city: Manchester
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: M1 1RG
+
+----
+
+Address-lat: 53.4807563
+
+----
+
+Address-lng: -2.2360093
+
+----
+
+Phone: 01612 365896
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>Picadilly Train Station</strong></p>
+
+----
+
+What-three-words: racks.energy.hands
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

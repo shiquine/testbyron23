@@ -1,0 +1,59 @@
+Title: Vegan salted caramel shake
+
+----
+
+Menu-image:
+
+- shake_aw_5.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- >
+  vegan-salted-caramel-shake_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>Your taste buds will die and go to plant-based heaven with this dreamy vegan&nbsp;flavour.&nbsp;</em></p>
+
+----
+
+Ingredients:
+
+- allergens/vegan-salted-caramel-shake
+
+----
+
+Preparation-allergens:
+
+- allergens/nuts
+- allergens/peanuts
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

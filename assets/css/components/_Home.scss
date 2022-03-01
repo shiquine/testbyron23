@@ -1,0 +1,99 @@
+.Home {
+}
+
+.Home-campaigns {
+  // @include full-width-container;
+}
+
+.Home-campaign {
+  width: 100%;
+  height: 100%; // the same as the tallest slide
+}
+
+.Home-campaign a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: opacity $transition;
+
+  &:hover,
+  &:focus {
+    opacity: 0.75;
+  }
+}
+
+.Home-campaignImageContainer {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: calc(100% * var(--ratio));
+}
+
+.Home-campaign img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; // keep any text in view
+}
+
+.Home-tickertape {
+  @include media-query(small) {
+    @include full-width-container;
+  }
+
+  //  Don’t run the tickertape if the user prefers reduced motion
+  @media (prefers-reduced-motion) {
+    display: none;
+  }
+}
+
+.Home-tickertape img {
+  width: 100%;
+  height: auto;
+}
+
+.Home-buttons {
+  @include full-width-container;
+  margin-top: var(--margin);
+
+  @include media-query(medium) {
+    @include basic-grid;
+    margin-bottom: var(--margin);
+  }
+}
+
+.Home-products {
+}
+
+.Home-productsTitle {
+  @include hidden;
+}
+
+.Home-buttons a {
+  @include boxed-title--large($bg: $red);
+
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+  transition: background-color $transition;
+
+  @include media-query(medium) {
+    grid-column: span 3;
+    margin-bottom: 0;
+  }
+}
+
+.Home-buttons a:hover,
+.Home-buttons a:focus {
+  background-color: shade($red, 10%);
+}
+
+.Home-buttons a:active {
+  background-color: shade($red, 20%);
+}

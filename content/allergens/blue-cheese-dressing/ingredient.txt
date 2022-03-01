@@ -1,0 +1,21 @@
+Title: blue cheese dressing
+
+----
+
+Allergens:
+
+- allergens/egg
+- allergens/milk
+- allergens/sulphur-dioxide
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

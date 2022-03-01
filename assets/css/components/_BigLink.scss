@@ -1,0 +1,22 @@
+a.BigLink {
+  display: inline-block;
+  @include small-title;
+  margin-bottom: 13px;
+}
+
+a.BigLink--left {
+}
+
+a.BigLink--center {
+  display: block;
+  text-align: center;
+}
+
+.BigLink span[aria-hidden] {
+  margin-right: 0.25em;
+  margin-left: 0.25em;
+}
+
+.BigLink--left span[aria-hidden] {
+  display: none;
+}

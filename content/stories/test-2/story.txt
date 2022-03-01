@@ -1,0 +1,33 @@
+Title: Test 2
+
+----
+
+Regular-media:
+
+- byron-35.jpg
+
+----
+
+Cropped-media:
+
+- byron-burger-covent-garden-6.jpg
+
+----
+
+Description: This is another test story
+
+----
+
+Link-type: none
+
+----
+
+Link-page: 
+
+----
+
+Link-url: 
+
+----
+
+Link-text: 

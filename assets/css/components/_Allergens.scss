@@ -1,0 +1,119 @@
+.Allergens {
+  @include full-width-container;
+  padding-bottom: var(--margin);
+}
+
+.Allergens-title {
+  @include boxed-title;
+  margin-right: auto;
+  margin-bottom: var(--margin);
+  margin-left: auto;
+}
+
+.Allergens-content {
+  @include content-max-width;
+  margin-bottom: calc(var(--margin) - 7px);
+
+  @include copy-styles;
+  @include copy;
+}
+
+.Allergens-content:last-child {
+  margin-bottom: 0;
+}
+
+.Allergens-content button {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all $transition;
+
+  &:hover,
+  &:focus {
+    color: $red;
+  }
+}
+
+.Allergens-more {
+}
+
+.Allergens-more .Expander-contentInner {
+  padding-top: 1em;
+}
+
+.Allergens-guide {
+}
+
+.Allergens-pdf {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(var(--margin) * -0.5);
+  margin-bottom: var(--margin);
+}
+
+.Allergens-pdf .Button {
+  --background: #{$red};
+  --color: #{$putty};
+}
+
+.Allergens-filters {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: calc(var(--margin) - 10px);
+}
+
+.Allergens-filters .Tag {
+  // <button>
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.Allergens-menu {
+  @include content-max-width;
+  margin-bottom: var(--margin);
+}
+
+.Allergens-category {
+  border-bottom: 1px solid $black;
+}
+
+.Allergens-category:not(:first-of-type) {
+  margin-top: var(--margin);
+}
+
+.Allergens-category > button {
+  @include section-title;
+  margin-bottom: 11px;
+
+  @include media-query(medium) {
+    margin-bottom: 15px;
+  }
+}
+
+.Allergens-products {
+}
+
+.Allergen-product {
+  padding-bottom: calc(var(--margin) - 5px);
+}
+
+.Allergen-productTitle {
+  @include small-title;
+  margin-bottom: 4px;
+}
+
+.Allergen-productTitle a {
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.Allergen-productNotice {
+  @include type("copy-smaller");
+
+  @include media-query(medium) {
+    @include type("copy-small");
+    letter-spacing: 0;
+  }
+}

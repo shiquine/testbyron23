@@ -1,0 +1,115 @@
+Title: Central St Giles
+
+----
+
+Featured-image:
+
+- csg-in.png
+
+----
+
+Gallery:
+
+- csg-out.png
+- csg-in.png
+
+----
+
+Description: 
+
+----
+
+Tags: Free WiFi, Wheelchair access, Vegan, Outdoor seating
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 11:30:00
+  closing_time: 22:30:00
+- 
+  day: Friday
+  opening_time: 11:30:00
+  closing_time: 23:00:00
+- 
+  day: Saturday
+  opening_time: 11:30:00
+  closing_time: 23:00:00
+- 
+  day: Sunday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: 1A St Giles High Street
+
+----
+
+Address-line-two: 
+
+----
+
+Address-city: London
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: WC2H 8AG
+
+----
+
+Address-lat: 51.5163675
+
+----
+
+Address-lng: -0.1292614
+
+----
+
+Phone: 0207 240 9292
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>Tottenham Court Road</strong></p>
+
+----
+
+What-three-words: toxic.having.stores
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

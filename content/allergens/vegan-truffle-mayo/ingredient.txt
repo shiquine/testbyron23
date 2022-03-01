@@ -1,0 +1,20 @@
+Title: vegan truffle mayo
+
+----
+
+Allergens:
+
+- allergens/gluten-containing-cereals
+- allergens/mustard
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: true
+
+----
+
+Is-gluten-free: false

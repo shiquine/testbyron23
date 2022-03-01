@@ -1,0 +1,21 @@
+Title: Oreo shake
+
+----
+
+Allergens:
+
+- allergens/milk
+- allergens/gluten-containing-cereals
+- allergens/soya
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: false

@@ -1,0 +1,20 @@
+Title: Halloumi fries
+
+----
+
+Allergens:
+
+- allergens/milk
+- allergens/gluten-containing-cereals
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: false

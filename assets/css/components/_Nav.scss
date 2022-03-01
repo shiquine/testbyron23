@@ -1,0 +1,194 @@
+.Nav {
+  outline: none; // don’t take a focus ring
+
+  @include media-query(medium, max) {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+
+    background-color: $red;
+    color: $putty;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.01s 0.25s, opacity 0.25s $ease-out-quart;
+  }
+
+  @include media-query(medium) {
+    height: auto;
+    grid-column: span 4;
+  }
+}
+
+body[data-has-nav-open] .Nav {
+  @include media-query(medium, max) {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.01s, opacity 0.25s 0.01s $ease-out-quart;
+  }
+}
+
+.Nav-inner {
+  @include nav-text;
+
+  @include media-query(medium, max) {
+    @include full-width-container;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+  }
+}
+
+.Nav-close {
+  // <button>
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  position: absolute;
+  top: var(--margin);
+  right: var(--margin);
+  z-index: 1;
+
+  //  Min tap size
+  width: 48px;
+  height: 48px;
+
+  @include media-query(medium) {
+    display: none;
+  }
+}
+
+.Nav-close span {
+  @include hidden;
+}
+
+.Nav-close .svg-cross {
+  //  Ratio = 1:1
+  width: 20px;
+  height: 20px;
+}
+
+.Nav-list {
+  // <ul>
+  margin: auto; // don’t lose the top to overflow
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @include media-query(medium) {
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: var(--headerHeight);
+
+    //  The links have padding so bring them back inline
+    position: relative;
+    width: calc(100% + 20px);
+    left: -10px;
+  }
+
+  @include media-query(large) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.Nav-item {
+  // <li>
+  display: block;
+}
+
+//  See: https://codepen.io/hexagoncircle/pen/WNrYPLo
+.Nav-link {
+  // <a>
+  transition: all $transition;
+  text-align: center;
+
+  @include media-query(medium) {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  @include media-query(large) {
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+}
+
+.Nav-link[aria-current],
+.Nav-link[data-active],
+.Nav-link:hover,
+.Nav-link:focus {
+  @include media-query(medium) {
+    text-decoration: none;
+    color: $red;
+    letter-spacing: 0.2em;
+  }
+
+  span {
+    @include media-query(medium, max) {
+      @include underline(
+        $bg: var(--background),
+        $color: $red,
+        $thickness: 2px,
+        $position: -0.1em
+      );
+    }
+  }
+}
+
+.Nav-link[aria-current] span,
+.Nav-link[data-active] span {
+  @include media-query(medium) {
+    @include underline(
+      $bg: var(--background),
+      $color: currentColor,
+      $thickness: 2px,
+      $position: -0.1em,
+      // cut off the trailing letter-spacing
+      $offsetX: -0.18em
+    );
+  }
+}
+
+//  Make the link the width of the bold weight
+//  See: https://codepen.io/hexagoncircle/pen/WNrYPLo
+.Nav-link:after {
+  @include media-query(medium) {
+    content: attr(data-text);
+    content: attr(data-text) / "";
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    user-select: none;
+    pointer-events: none;
+
+    letter-spacing: 0.2em;
+  }
+
+  @media speech {
+    display: none;
+  }
+}

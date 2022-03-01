@@ -1,0 +1,55 @@
+Title: Oreo shake
+
+----
+
+Menu-image:
+
+- shake_aw_1.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- oreo-shake_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>This milkshake brings everyone to the yard. Kesha&nbsp;ain’t&nbsp;got nothing on us.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/oreo-shake
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

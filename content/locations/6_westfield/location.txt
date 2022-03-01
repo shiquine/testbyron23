@@ -1,0 +1,114 @@
+Title: Westfield
+
+----
+
+Featured-image:
+
+- west.jpg
+
+----
+
+Gallery:
+
+- westfield-in.png
+
+----
+
+Description: 
+
+----
+
+Tags: Wheelchair access, Free WiFi, Large parties, Vegan
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Friday
+  opening_time: 11:30:00
+  closing_time: 22:30:00
+- 
+  day: Saturday
+  opening_time: 11:30:00
+  closing_time: 22:30:00
+- 
+  day: Sunday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: The Loft, Westfield Shopping Centre
+
+----
+
+Address-line-two: 
+
+----
+
+Address-city: London
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: W12 7GF
+
+----
+
+Address-lat: 51.5078368
+
+----
+
+Address-lng: -0.2217481
+
+----
+
+Phone: 020 8811 2368
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>Shepherd's Bush</strong></p>
+
+----
+
+What-three-words: civil.stuck.loss
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

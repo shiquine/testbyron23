@@ -1,0 +1,21 @@
+type: group
+fields:
+  footer_illustration:
+    type: files
+    label: Footer Illustration
+    multiple: false
+    query: page.code
+    width: 1/2
+    help: |
+      This should be a JSON file that has been exported to work with <a href="https://airbnb.io/lottie/#/web">Lottie</a>.
+
+  footer_illustration_type:
+    type: select
+    label: Type
+    width: 1/2
+    default: scroll
+    options:
+      scroll: Scrolling
+      loop: Looping
+    help: |
+      This animation can either be tied to the users scrolling, or otherwise play and loop as soon as it all comes into view.

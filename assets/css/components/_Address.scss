@@ -1,0 +1,33 @@
+.Address {
+  @include copy;
+  font-style: normal;
+}
+
+.Address a {
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.Address-physical {
+  // <a>
+  display: block;
+}
+
+.Address-physical:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.Address-row {
+}
+
+.Address-phone {
+  // <a>
+  display: block;
+}
+
+.Address-email {
+  // <a>
+  display: block;
+}

@@ -1,0 +1,61 @@
+Title: Skin on fries
+
+----
+
+Menu-image: 
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- skin-on-fries_lifestyle_1920.jpg
+
+----
+
+Tag: vegan,green
+
+----
+
+Description: <p><em>Straight up goodness, you know you're on for a good time.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/skin-on-fries
+- allergens/secret-seasoning
+
+----
+
+Preparation-allergens:
+
+- allergens/milk
+- allergens/gluten-containing-cereals
+- allergens/soya
+- allergens/celery
+- allergens/mustard
+- allergens/sulphur-dioxide
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

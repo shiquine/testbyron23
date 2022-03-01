@@ -1,0 +1,8 @@
+title: Image
+
+fields:
+  alt:
+    label: Alternative Text
+    type: text
+    help: |
+      For help with writing good alt text, see: https://webaim.org/techniques/alttext/

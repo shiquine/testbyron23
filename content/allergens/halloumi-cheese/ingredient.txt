@@ -1,0 +1,19 @@
+Title: halloumi cheese
+
+----
+
+Allergens:
+
+- allergens/milk
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

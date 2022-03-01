@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "nimbus";
+  src: url("../../fonts/nimbus-regular.woff2") format("woff2"),
+    url("../../fonts/nimbus-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; // FOUT
+}
+
+@font-face {
+  font-family: "nimbus";
+  src: url("../../fonts/nimbus-regular-italic.woff2") format("woff2"),
+    url("../../fonts/nimbus-regular-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; // FOUT
+}
+
+@font-face {
+  font-family: "nimbus";
+  src: url("../../fonts/nimbus-black.woff2") format("woff2"),
+    url("../../fonts/nimbus-black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; // FOUT
+}
+
+@font-face {
+  font-family: "nimbus";
+  src: url("../../fonts/nimbus-black-italic.woff2") format("woff2"),
+    url("../../fonts/nimbus-black-italic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap; // FOUT
+}
+
+/*
+ * 1. Crisper
+ * 2. Use a 4-space tab width in all browsers (opinionated).
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ * 4. Breaks words to prevent overflow in all browsers (opinionated).
+ * 5. Basic opentype features (opinionated)
+ */
+html {
+  font-family: $nimbus;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px; // becomes 1rem
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility; // 1
+  -moz-osx-font-smoothing: grayscale; // 1
+  -webkit-font-smoothing: antialiased; // 1
+  font-kerning: normal;
+  font-feature-settings: "kern", "liga", "clig", "calt"; // 5
+  tab-size: 2; // 2
+  -ms-text-size-adjust: 100%; // 3
+  -webkit-text-size-adjust: 100%; // 3
+  word-wrap: break-word; // 4 (IE)
+  word-break: break-word; // 4
+  overflow-wrap: break-word; // 4 (newer)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+b,
+strong {
+  font-weight: 900;
+  letter-spacing: 0.01em;
+}
+
+p {
+  margin-top: 0; // reset
+  margin-bottom: 0.5em;
+}
+
+sup {
+  font-size: 75%;
+  line-height: 0;
+}
+
+small {
+  font-size: 75%;
+}
+
+//  Let inputs break normally otherwise they will wrap in Safari 14
+input {
+  word-break: normal;
+}

@@ -1,0 +1,37 @@
+.MenuCategory {
+  padding-bottom: 40px;
+
+  @include media-query(medium) {
+    padding-bottom: var(--margin);
+  }
+}
+
+.MenuCategory-title {
+  @include boxed-title;
+  margin-right: auto;
+  margin-bottom: var(--margin);
+  margin-left: auto;
+}
+
+.MenuCategory:not(:first-of-type) .MenuCategory-title {
+  margin-top: var(--margin);
+
+  @include media-query(large) {
+    margin-top: calc(var(--margin) * 2);
+  }
+}
+
+a.MenuCategory-skip {
+  display: block;
+}
+
+.MenuCategory-skip div {
+  display: none;
+  @include boxed-title--small($bg: $red);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a.MenuCategory-skip:focus div {
+  display: block;
+}

@@ -1,0 +1,19 @@
+Title: haggis
+
+----
+
+Allergens:
+
+- allergens/gluten-containing-cereals
+
+----
+
+Is-vegetarian: false
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: false

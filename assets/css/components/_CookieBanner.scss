@@ -1,0 +1,60 @@
+.CookieBanner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9; // behind mobile menu
+
+  background-color: $putty;
+  color: $black;
+  border-top: 1px solid $black;
+
+  padding-top: calc(var(--margin) * 0.5);
+  padding-bottom: calc(var(--margin) * 0.5);
+}
+
+.CookieBanner[data-hidden] {
+  display: none;
+}
+
+.no-js .CookieBanner[data-hidden] {
+  display: block;
+  position: relative;
+}
+
+.CookieBanner-inner {
+  display: flex;
+  align-items: center;
+  @include full-width-container;
+}
+
+.CookieBanner-content {
+  flex: 1;
+  @include no-margin-on-last-child;
+  @include copy;
+  padding-right: 1em;
+}
+
+.CookieBanner-close {
+  // <button>
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
+
+.no-js .CookieBanner-close {
+  display: none;
+}
+
+.CookieBanner-close span {
+  @include hidden;
+}
+
+.CookieBanner .svg-cross {
+  //  Ratio = 1:1
+  width: 24px;
+  height: 24px;
+}

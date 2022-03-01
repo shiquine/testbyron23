@@ -1,0 +1,20 @@
+Title: Chicken bites
+
+----
+
+Allergens:
+
+- allergens/garlic
+- allergens/milk
+
+----
+
+Is-vegetarian: false
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

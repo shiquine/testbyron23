@@ -1,0 +1,12 @@
+[submodule "kirby"]
+	path = kirby
+	url = https://github.com/getkirby/kirby.git
+[submodule "site/plugins/sitemapper"]
+	path = site/plugins/sitemapper
+	url = https://github.com/kirbyzone/sitemapper.git
+[submodule "site/plugins/meta-tags"]
+	path = site/plugins/meta-tags
+	url = https://github.com/pedroborges/kirby-meta-tags.git
+[submodule "site/plugins/colors"]
+	path = site/plugins/colors
+	url = https://github.com/hananils/kirby-colors.git

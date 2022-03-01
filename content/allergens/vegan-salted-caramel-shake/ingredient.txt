@@ -1,0 +1,17 @@
+Title: Vegan salted caramel shake
+
+----
+
+Allergens: 
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

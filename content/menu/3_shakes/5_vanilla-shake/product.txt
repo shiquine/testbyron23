@@ -1,0 +1,55 @@
+Title: Vanilla shake
+
+----
+
+Menu-image:
+
+- shake_aw_3.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- vanilla-shake_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>There is only one time to choose Vanilla.&nbsp;And that’s right now.&nbsp;</em></p>
+
+----
+
+Ingredients:
+
+- allergens/vanilla
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

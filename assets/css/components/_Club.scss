@@ -1,0 +1,286 @@
+.Club {
+  background-color: $red;
+  margin-top: var(--margin);
+  margin-bottom: var(--margin);
+}
+
+.Club-outer {
+  padding-top: calc(var(--margin) - 4px);
+  padding-bottom: var(--margin);
+  @include full-width-container;
+}
+
+.Club-inner {
+  @include content-max-width;
+}
+
+.Club-heading {
+  //  Ratio = 0 0 169.9:75
+  width: 170px;
+  height: 75px;
+
+  pointer-events: none;
+}
+
+.Club-heading span {
+  @include hidden;
+}
+
+.Club-heading .svg-join-byron-club {
+  width: 100%;
+  height: 100%;
+  fill: $putty;
+}
+
+.Club-submitting {
+  display: none;
+}
+
+.Club[data-loading] .Club-submitting {
+  display: block;
+}
+
+.Club-submitting,
+.Club-errors,
+.Club-success,
+.Club-form {
+  padding-left: 75px;
+}
+
+.Club-submitting,
+.Club-errors,
+.Club-success {
+  max-width: 480px;
+  margin-top: -10px;
+  margin-bottom: 34px;
+  @include type("copy");
+  color: $putty;
+}
+
+.Club-submitting h3,
+.Club-errors h3,
+.Club-success h3 {
+  @include section-title-small;
+}
+
+.Club-errors p {
+}
+
+.Club-errors ul {
+  margin-left: 1em;
+}
+
+.Club-errors li {
+}
+
+.Club-form {
+  position: relative;
+  margin-top: -20px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.Club[data-loading] .Club-form {
+  opacity: 0.66;
+  animation: pulse 2s 0.5s $ease-in-out-quad infinite;
+  pointer-events: none;
+}
+
+.Club-form--hidden {
+  display: none;
+}
+
+.Club-field {
+  margin-bottom: 10px;
+}
+
+.js .Club-field[data-club-field]:not([data-active]) {
+  display: none;
+}
+
+.Club-field--names .Club-fieldInner,
+.Club-field--dob .Club-fieldInner,
+.Club-field--location .Club-fieldInner {
+  background-color: $putty;
+  color: $red;
+}
+
+.Club-field--names .Club-fieldInner,
+.Club-field--dob .Club-fieldInner {
+  display: flex;
+  align-items: center;
+}
+
+.Club-field--names .Club-fieldInner {
+  @include media-query(small, max) {
+    display: block;
+  }
+
+  //  Get the span to mimic the gap between fields
+  span {
+    @include media-query(small, max) {
+      display: block;
+      width: 100%;
+      height: 10px;
+      background-color: $red;
+      font-size: 0px;
+    }
+  }
+}
+
+.Club-field--names span,
+.Club-field--dob span {
+  display: block;
+  position: relative;
+  top: 2px;
+}
+
+.Club-field label:not(.Club-checkboxLabel) {
+  @include hidden;
+}
+
+.Club-field input,
+.Club-field select {
+  width: 100%;
+
+  padding-top: 9px;
+  padding-right: 48px; // the progress button
+  padding-bottom: 3px;
+  padding-left: 10px;
+
+  @include type("copy");
+
+  background-color: $putty;
+  color: $red;
+}
+
+.Club-field input {
+}
+
+.Club-field select {
+}
+
+.Club button[type="submit"] {
+  --background: #{$putty};
+  --color: #{$red};
+
+  margin-top: calc(var(--margin) * 0.5);
+}
+
+//  Fallback Embed
+.Club-embed {
+  @include full-width-container;
+  padding-bottom: var(--margin);
+}
+
+.Club-noscript {
+  border: 1px solid $red;
+  padding: var(--margin);
+  @include copy;
+  @include copy-styles;
+}
+
+.Club-checkboxLabel {
+  display: block;
+  position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  padding-left: calc(18px + 10px); // checkbox + spacing
+  color: $putty;
+  cursor: pointer;
+
+  &::before {
+    // the actual checkbox
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background-color: $putty;
+  }
+}
+
+.Club-checkboxLabel .svg-cross {
+  //  Ratio = 1:1
+  display: block;
+  //  Center within the checkbox
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 3px;
+  left: 3px;
+  fill: $black;
+  opacity: 0;
+  transition: opacity $transition;
+}
+
+.Club-field input[type="checkbox"]:checked ~ label .svg-cross {
+  opacity: 1;
+}
+
+.Club-field--names #Club-firstname,
+.Club-field--dob select {
+  background: none;
+  width: max-content;
+  padding-right: 8px;
+}
+
+.Club-field--location #Club-location {
+  width: max-content;
+  padding-right: 32px;
+}
+
+.Club-fieldError {
+  margin-top: 0.5em;
+  @include type("copy");
+  color: $putty;
+}
+
+//
+//  Progress Button
+.Club-progress {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  min-width: 48px;
+  height: 48px;
+
+  color: $red;
+}
+
+.Club-progress:hover,
+.Club-progress:focus {
+  text-decoration: underline;
+}
+
+.no-js .Club-progress {
+  display: none;
+}
+
+.Club-progress .svg-chevron-right {
+  //  Ratio = 450.9:810.8
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 10px;
+  height: 18px;
+}
+
+.Club-progress[data-last] .svg-chevron-right {
+  display: none;
+}
+
+.Club-progress span {
+  display: none;
+  @include button-text;
+}
+
+.Club-progress[data-last] span {
+  display: block;
+}

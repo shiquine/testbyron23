@@ -1,0 +1,62 @@
+.PopUp {
+  width: 320px;
+  max-width: 60vw;
+}
+
+.PopUp-title {
+  margin-bottom: calc(var(--margin) * 0.5);
+
+  @include type("section-title-small");
+  font-weight: 900;
+
+  @include media-query(medium) {
+    @include type("section-title");
+  }
+}
+
+.PopUp-text {
+  max-width: 24em;
+  margin-bottom: var(--margin);
+
+  @include copy;
+  @include copy-styles;
+}
+
+.PopUp-link {
+  display: flex;
+  justify-content: center;
+}
+
+.PopUp-link a {
+  @include boxed-title;
+  background-color: $putty;
+  color: $red;
+  text-align: center;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.PopUp-illustration,
+.PopUp-image {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--margin);
+}
+
+.PopUp-illustration {
+  display: none; // so Lottie doesn’t run all the time
+}
+
+.Modal[data-active] .PopUp-illustration {
+  display: flex;
+}
+
+.PopUp-illustration .PopUp-illustrationInner,
+.PopUp-image img {
+  width: 240px;
+  max-width: 45vw;
+  height: auto;
+}

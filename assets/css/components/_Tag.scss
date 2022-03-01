@@ -1,0 +1,65 @@
+//  The .Tag itself could be a button and has no styles of its own. This allows it to take padding. The inner has the visual appearance.
+
+.Tag {
+  --background: #{$black};
+  --color: #{$putty};
+}
+
+//  TODO: Hover state
+button.Tag {
+  cursor: pointer;
+}
+
+//  Colors
+.Tag--red {
+  --background: #{$red};
+  --color: #{$putty};
+}
+
+.Tag--green {
+  --background: #{$green};
+  --color: #{$putty};
+}
+
+.Tag--orange {
+  --background: #{$orange};
+  --color: #{$putty};
+}
+
+.Tag--blue {
+  --background: #{$blue};
+  --color: #{$putty};
+}
+
+.Tag-inner {
+  width: max-content;
+  height: 13px;
+
+  border-radius: 13px;
+  overflow: hidden;
+
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-left: 6px;
+
+  font-size: 13px;
+  line-height: 14px; // best consistency across desktop and iOS
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+
+  background-color: var(--background, #{$black});
+  color: var(--color, #{$putty});
+
+  @include media-query(large) {
+    height: 17px;
+    border-radius: 17px;
+
+    padding-top: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+
+    font-size: 16px;
+    line-height: 17px;
+  }
+}

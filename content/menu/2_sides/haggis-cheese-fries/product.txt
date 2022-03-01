@@ -1,0 +1,55 @@
+Title: haggis cheese fries
+
+----
+
+Menu-image: 
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- haggis-topped-fries_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>The classic cheesy fries topped with Scotlands finest delicacy. Scotland restaurants only.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/haggis
+- allergens/byron-cheese-sauce
+- allergens/skin-on-fries
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

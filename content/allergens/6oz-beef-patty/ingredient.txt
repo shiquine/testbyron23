@@ -1,0 +1,17 @@
+Title: 6oz beef patty
+
+----
+
+Allergens: 
+
+----
+
+Is-vegetarian: false
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

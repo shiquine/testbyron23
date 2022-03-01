@@ -1,0 +1,166 @@
+.Header {
+  position: sticky;
+  top: -1px; // for intersection observer on sticky
+  width: 100%;
+  z-index: 10;
+}
+
+//  The pseudo takes the background so the header appears smaller when sticky
+.Header:before {
+  content: "";
+  @include absolute-fill;
+  height: calc(100% - 14px);
+  background-color: var(--background);
+  pointer-events: none;
+
+  @include media-query(large) {
+    height: 100%;
+  }
+}
+
+.Header-outer {
+  @include media-query(medium) {
+    @include basic-grid;
+    height: var(--headerHeight);
+    max-width: var(--maxWidth);
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: var(--margin);
+    padding-left: var(--margin);
+  }
+}
+
+.Header-inner {
+  position: relative;
+
+  width: 100%;
+  height: var(--headerHeight);
+  margin-right: auto;
+  margin-left: auto;
+
+  @include media-query(medium) {
+    grid-column: span 2;
+    height: 100%;
+    margin: 0;
+  }
+}
+
+.Header-logo {
+}
+
+.Header-logo a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: var(--headerHeight);
+}
+
+.Header-logo span {
+  @include hidden;
+}
+
+.Header-byron {
+  @include absolute-fill;
+}
+
+.Header-logo .svg-logo-byron {
+  //  Ratio = 1621.2:300
+  display: block;
+  position: relative;
+  top: 22px;
+  width: 125px;
+  height: 23px;
+  margin: auto;
+
+  @include media-query(medium) {
+    top: 20px;
+    margin: 0;
+  }
+
+  @include media-query(large) {
+    width: 180px;
+    height: 34px;
+    top: 31px;
+  }
+}
+
+.Header-logo .svg-logo-burgers {
+  //  Ratio = 217.5:30
+  position: absolute;
+  bottom: 19px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 51px;
+  height: 7px;
+
+  transition: all $transition;
+
+  @include media-query(medium) {
+    left: 36px;
+    bottom: 13px;
+    transform: translateX(0);
+  }
+
+  @include media-query(large) {
+    width: 74px;
+    height: 11px;
+    bottom: 2px;
+    left: 53px;
+  }
+}
+
+.Header[data-sticky] .Header-logo .svg-logo-burgers {
+  opacity: 0;
+  transform: translateX(-50%) translateY(-10px);
+
+  @include media-query(medium) {
+    transform: translateX(0) translateY(-10px);
+  }
+}
+
+.Header-naviconContainer {
+  @include media-query(medium) {
+    display: none;
+  }
+}
+
+.Header-navicon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1; // ahead of the logo
+
+  width: 70px;
+  height: 70px;
+
+  cursor: pointer;
+}
+
+button.Header-navicon {
+  // JS only
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: var(--margin);
+  padding-right: var(--margin);
+}
+
+.no-js button.Header-navicon {
+  display: none;
+}
+
+a.Header-navicon {
+  // No-JS only
+}
+
+.Header-naviconLottie {
+  //  Ratio = 500:404
+  width: 21px;
+  height: 17px;
+}
+
+//  For no-JS
+.Header-navicon .svg-navicon-arced {
+  width: 100%;
+  height: 100%;
+}

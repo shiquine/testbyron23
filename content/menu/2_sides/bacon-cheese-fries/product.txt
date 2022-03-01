@@ -1,0 +1,64 @@
+Title: Bacon cheese fries
+
+----
+
+Menu-image: 
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- bacon-cheese-fries_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p>The godfather of topped fries. That is all.</p>
+
+----
+
+Ingredients:
+
+- allergens/skin-on-fries
+- allergens/bacon
+- allergens/byron-cheese-sauce
+
+----
+
+Preparation-allergens:
+
+- allergens/fish
+- allergens/crustaceans
+- allergens/molluscs
+- allergens/egg
+- allergens/celery
+- allergens/mustard
+- allergens/sesame-seeds
+- allergens/sulphur-dioxide
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

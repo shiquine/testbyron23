@@ -1,0 +1,55 @@
+Title: Salted caramel shake
+
+----
+
+Menu-image:
+
+- shake_aw_2.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- salted-caramel-shake_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>Shake what&nbsp;ya&nbsp;momma gave you! Which&nbsp;probably wasn’t&nbsp;creamy ice cream whizzed with&nbsp;delicious caramel. Treat&nbsp;yoself.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/salted-caramel-shake
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

@@ -1,0 +1,37 @@
+title: Blog
+icon: bold
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  changeTitle: true
+  delete: false
+  duplicate: false
+  preview: true
+  read: true
+  update: true
+
+tabs:
+  #
+  #  Content Tab
+  #
+  content:
+    label: Content
+    columns:
+      - width: 1/1
+        sections:
+          #
+          #  Posts
+          #
+          posts:
+            headline: Posts
+            type: pages
+            layout: cards
+            size: small
+            image:
+              query: page.featured_image.toFile
+              cover: true
+              back: black
+            create: post
+            template: post
+            empty: No posts yet

@@ -1,0 +1,63 @@
+Title: Truffler
+
+----
+
+Menu-image: 
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- truffler.jpg
+
+----
+
+Tag: vegan,green
+
+----
+
+Description: <p>Beyond Meat plant-based patty, crispy onions, roasted truffle mushrooms, pickled red onions, lettuce, American Mustard, vegan Cheddar, truffle mayo.<br>&nbsp;<br><em>Every day I’m&nbsp;trufflin’. This vegan beauty is&nbsp;sexy&nbsp;and it knows it. Feel just as confident after you indulge in this plant-based heaven.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/beyond-meat-patty
+- allergens/crispy-onions
+- allergens/truffle-mushrooms
+- allergens/vegan-truffle-mayo
+- allergens/pickled-red-onion
+- allergens/lettuce
+- allergens/american-mustard
+- allergens/vegan-cheddar
+
+----
+
+Preparation-allergens:
+
+- allergens/soya
+- allergens/egg
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

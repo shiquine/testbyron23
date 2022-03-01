@@ -1,0 +1,112 @@
+title: Locations
+icon: map
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  changeTitle: true
+  delete: false
+  duplicate: false
+  preview: true
+  read: true
+  update: true
+
+tabs:
+  #
+  #  Locations Tab
+  #
+  locations:
+    label: Locations
+    columns:
+      - width: 1/3
+        sticky: true
+        sections:
+          #
+          #  Files
+          #
+          files:
+            type: files
+            image:
+              back: black
+              cover: true
+
+      - width: 2/3
+        sections:
+          fields:
+            fields:
+              #
+              #  Search
+              #
+              finder_image:
+                label: Finder Image
+                type: files
+                multiple: false
+                layout: cards
+                size: small
+                width: 1/1
+                image:
+                  back: black
+                  cover: true
+                  ratio: 16/9
+                help: |
+                  This will be shown behind the Finder search form.
+
+              error_message_api:
+                label: API Error Message
+                type: textarea
+                buttons: false
+                size: tiny
+                width: 1/2
+                help: |
+                  This error message will be shown if there is a problem processing the search query.
+
+                  All locations will still be shown alphabetically below.
+
+              error_message_no_results:
+                label: No Results Error Message
+                type: textarea
+                buttons: false
+                size: tiny
+                width: 1/2
+                help: |
+                  This error message will be shown if no matching places could be found for the search query.
+
+                  All locations will still be shown alphabetically below.
+
+              search_line:
+                type: line
+
+          #
+          #  Locations
+          #
+          locations:
+            headline: Locations
+            type: pages
+            layout: cards
+            size: small
+            image:
+              query: page.featured_image.toFile
+              cover: true
+              back: black
+              ratio: 16/9
+            create: location
+            template: location
+            empty: No locations yet
+
+          #
+          #  Footer Illustration
+          #
+          footer_illustration:
+            type: fields
+            fields:
+              footer_illustration_line:
+                type: line
+
+              footer_illustration:
+                extends: fields/footer_illustration
+
+  #
+  #  SEO Tab
+  #
+  seo:
+    extends: tabs/seo

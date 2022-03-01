@@ -1,0 +1,19 @@
+Title: mayo
+
+----
+
+Allergens:
+
+- allergens/egg
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

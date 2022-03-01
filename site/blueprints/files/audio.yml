@@ -1,0 +1,8 @@
+title: Audio
+
+fields:
+  info:
+    type: info
+    label: Info
+    text: |
+      Nothing more to do here...

@@ -1,0 +1,48 @@
+//  Colours
+$white: #ffffff;
+$grey: #eaeaea;
+$black: #000000;
+
+$red: #dc4f3e;
+$green: #008d39;
+$orange: #f28c00;
+$blue: #0049d5;
+$putty: #e9deca;
+
+//  Min/Max Width
+$min-width--value: 320;
+$min-width: ($min-width--value * 1px);
+$max-width--value: 1440;
+$max-width: ($max-width--value * 1px);
+
+//  Breakpoints
+$break--small: 500px;
+$break--medium: 800px;
+$break--large: 1080px;
+$break--x-large: 1140px; // past this point, things center
+
+//  Margins and Spacings
+$margin--min: 20px;
+$margin--max: 40px;
+
+//  Font Stacks
+//  See http://www.cssfontstack.com/
+$nimbus: "nimbus", Arial Narrow, Arial, sans-serif;
+
+//  Transitions
+$ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+$ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+$ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+$ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+
+$ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+$ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+$ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+$ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+
+$ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+$ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+$ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
+$ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+
+$transition: 0.15s $ease-out-quad;

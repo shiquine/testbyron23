@@ -1,0 +1,64 @@
+Title: C-Rex
+
+----
+
+Menu-image:
+
+- burger_aw_9.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- c-rex-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: chicken,blue
+
+----
+
+Description: <p>Grilled or buttermilk-fried chicken breast, gooey American cheese, bacon, onions, jalapeños, deep-fried onion ring, BBQ sauce, mayo,&nbsp;pickles.<br>&nbsp;<br><em>You’ve now met the B-rex' crazy sister. Created after a member of staff swapped&nbsp;the beef&nbsp;patty&nbsp;for some fried chicken and voila, pure magic my friends.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/buttermilk-fried-chicken
+- allergens/american-cheese
+- allergens/bacon
+- allergens/onion
+- allergens/jalapenos
+- allergens/deep-fried-onion-ring
+- allergens/bbq-sauce
+- allergens/mayo
+- allergens/pickles
+- allergens/byron-bun
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

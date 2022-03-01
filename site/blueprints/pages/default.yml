@@ -1,0 +1,30 @@
+title: Page
+icon: document
+options:
+  changeSlug: true
+  changeStatus: true
+  changeTemplate: true
+  changeTitle: true
+  delete: true
+  duplicate: true
+  preview: true
+  read: true
+  update: true
+
+status:
+  draft: true
+  unlisted: false
+  listed: true
+
+tabs:
+  #
+  #  Content Tab
+  #
+  content:
+    extends: tabs/default_content
+
+  #
+  #  SEO Tab
+  #
+  seo:
+    extends: tabs/seo

@@ -1,0 +1,102 @@
+July 16, 2021, 4:12 pm
+Airship error: Exception: Operation timed out after 30001 milliseconds with 0 bytes received in /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php:281
+Stack trace:
+#0 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(121): Kirby\Http\Remote-&gt;fetch()
+#1 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(392): Kirby\Http\Remote-&gt;__construct(&#039;https://api.air...&#039;, Array)
+#2 /Users/chriscorby/Code/byron/site/plugins/byron/functions.php(491): Kirby\Http\Remote::request(&#039;https://api.air...&#039;, Array)
+#3 /Users/chriscorby/Code/byron/site/controllers/club.php(7): byron_handle_club_form_submission(Object(Kirby\Cms\App))
+#4 [internal function]: Kirby\Cms\App-&gt;{closure}(Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#5 /Users/chriscorby/Code/byron/kirby/src/Toolkit/Controller.php(49): Closure-&gt;call(Object(Kirby\Cms\App), Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#6 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(460): Kirby\Toolkit\Controller-&gt;call(Object(Kirby\Cms\App), Array)
+#7 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(348): Kirby\Cms\App-&gt;controller(&#039;club&#039;, Array, &#039;html&#039;)
+#8 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(1169): Kirby\Cms\Page-&gt;controller(Array, &#039;html&#039;)
+#9 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(687): Kirby\Cms\Page-&gt;render()
+#10 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(1040): Kirby\Cms\App-&gt;io(Object(Kirby\Cms\Page))
+#11 /Users/chriscorby/Code/byron/index.php(5): Kirby\Cms\App-&gt;render()
+#12 {main}
+
+July 16, 2021, 4:14 pm
+Airship error: Exception: Operation timed out after 30001 milliseconds with 0 bytes received in /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php:281
+Stack trace:
+#0 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(121): Kirby\Http\Remote-&gt;fetch()
+#1 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(392): Kirby\Http\Remote-&gt;__construct(&#039;https://api.air...&#039;, Array)
+#2 /Users/chriscorby/Code/byron/site/plugins/byron/functions.php(491): Kirby\Http\Remote::request(&#039;https://api.air...&#039;, Array)
+#3 /Users/chriscorby/Code/byron/site/controllers/club.php(7): byron_handle_club_form_submission(Object(Kirby\Cms\App))
+#4 [internal function]: Kirby\Cms\App-&gt;{closure}(Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#5 /Users/chriscorby/Code/byron/kirby/src/Toolkit/Controller.php(49): Closure-&gt;call(Object(Kirby\Cms\App), Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#6 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(460): Kirby\Toolkit\Controller-&gt;call(Object(Kirby\Cms\App), Array)
+#7 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(348): Kirby\Cms\App-&gt;controller(&#039;club&#039;, Array, &#039;html&#039;)
+#8 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(1169): Kirby\Cms\Page-&gt;controller(Array, &#039;html&#039;)
+#9 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(687): Kirby\Cms\Page-&gt;render()
+#10 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(1040): Kirby\Cms\App-&gt;io(Object(Kirby\Cms\Page))
+#11 /Users/chriscorby/Code/byron/index.php(5): Kirby\Cms\App-&gt;render()
+#12 {main}
+
+July 21, 2021, 2:26 pm
+Airship error: Exception: Operation timed out after 30000 milliseconds with 0 bytes received in /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php:281
+Stack trace:
+#0 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(121): Kirby\Http\Remote-&gt;fetch()
+#1 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(392): Kirby\Http\Remote-&gt;__construct(&#039;https://api.air...&#039;, Array)
+#2 /Users/chriscorby/Code/byron/site/plugins/byron/functions.php(488): Kirby\Http\Remote::request(&#039;https://api.air...&#039;, Array)
+#3 /Users/chriscorby/Code/byron/site/controllers/club.php(7): byron_handle_club_form_submission(Object(Kirby\Cms\App))
+#4 [internal function]: Kirby\Cms\App-&gt;{closure}(Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#5 /Users/chriscorby/Code/byron/kirby/src/Toolkit/Controller.php(49): Closure-&gt;call(Object(Kirby\Cms\App), Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#6 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(460): Kirby\Toolkit\Controller-&gt;call(Object(Kirby\Cms\App), Array)
+#7 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(348): Kirby\Cms\App-&gt;controller(&#039;club&#039;, Array, &#039;html&#039;)
+#8 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(1169): Kirby\Cms\Page-&gt;controller(Array, &#039;html&#039;)
+#9 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(687): Kirby\Cms\Page-&gt;render()
+#10 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(1040): Kirby\Cms\App-&gt;io(Object(Kirby\Cms\Page))
+#11 /Users/chriscorby/Code/byron/index.php(5): Kirby\Cms\App-&gt;render()
+#12 {main}
+
+July 21, 2021, 2:26 pm
+Airship error: Exception: Operation timed out after 30001 milliseconds with 0 bytes received in /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php:281
+Stack trace:
+#0 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(121): Kirby\Http\Remote-&gt;fetch()
+#1 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(392): Kirby\Http\Remote-&gt;__construct(&#039;https://api.air...&#039;, Array)
+#2 /Users/chriscorby/Code/byron/site/plugins/byron/functions.php(488): Kirby\Http\Remote::request(&#039;https://api.air...&#039;, Array)
+#3 /Users/chriscorby/Code/byron/site/controllers/club.php(7): byron_handle_club_form_submission(Object(Kirby\Cms\App))
+#4 [internal function]: Kirby\Cms\App-&gt;{closure}(Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#5 /Users/chriscorby/Code/byron/kirby/src/Toolkit/Controller.php(49): Closure-&gt;call(Object(Kirby\Cms\App), Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#6 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(460): Kirby\Toolkit\Controller-&gt;call(Object(Kirby\Cms\App), Array)
+#7 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(348): Kirby\Cms\App-&gt;controller(&#039;club&#039;, Array, &#039;html&#039;)
+#8 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(1169): Kirby\Cms\Page-&gt;controller(Array, &#039;html&#039;)
+#9 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(687): Kirby\Cms\Page-&gt;render()
+#10 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(1040): Kirby\Cms\App-&gt;io(Object(Kirby\Cms\Page))
+#11 /Users/chriscorby/Code/byron/index.php(5): Kirby\Cms\App-&gt;render()
+#12 {main}
+
+July 21, 2021, 2:26 pm
+Airship error: Exception: Operation timed out after 30001 milliseconds with 0 bytes received in /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php:281
+Stack trace:
+#0 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(121): Kirby\Http\Remote-&gt;fetch()
+#1 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(392): Kirby\Http\Remote-&gt;__construct(&#039;https://api.air...&#039;, Array)
+#2 /Users/chriscorby/Code/byron/site/plugins/byron/functions.php(488): Kirby\Http\Remote::request(&#039;https://api.air...&#039;, Array)
+#3 /Users/chriscorby/Code/byron/site/controllers/club.php(7): byron_handle_club_form_submission(Object(Kirby\Cms\App))
+#4 [internal function]: Kirby\Cms\App-&gt;{closure}(Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#5 /Users/chriscorby/Code/byron/kirby/src/Toolkit/Controller.php(49): Closure-&gt;call(Object(Kirby\Cms\App), Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#6 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(460): Kirby\Toolkit\Controller-&gt;call(Object(Kirby\Cms\App), Array)
+#7 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(348): Kirby\Cms\App-&gt;controller(&#039;club&#039;, Array, &#039;html&#039;)
+#8 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(1169): Kirby\Cms\Page-&gt;controller(Array, &#039;html&#039;)
+#9 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(687): Kirby\Cms\Page-&gt;render()
+#10 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(1040): Kirby\Cms\App-&gt;io(Object(Kirby\Cms\Page))
+#11 /Users/chriscorby/Code/byron/index.php(5): Kirby\Cms\App-&gt;render()
+#12 {main}
+
+July 22, 2021, 2:15 pm
+Airship error: Exception: Operation timed out after 30001 milliseconds with 0 bytes received in /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php:281
+Stack trace:
+#0 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(121): Kirby\Http\Remote-&gt;fetch()
+#1 /Users/chriscorby/Code/byron/kirby/src/Http/Remote.php(392): Kirby\Http\Remote-&gt;__construct(&#039;https://api.air...&#039;, Array)
+#2 /Users/chriscorby/Code/byron/site/plugins/byron/functions.php(473): Kirby\Http\Remote::request(&#039;https://api.air...&#039;, Array)
+#3 /Users/chriscorby/Code/byron/site/controllers/club.php(7): byron_handle_club_form_submission(Object(Kirby\Cms\App))
+#4 [internal function]: Kirby\Cms\App-&gt;{closure}(Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#5 /Users/chriscorby/Code/byron/kirby/src/Toolkit/Controller.php(49): Closure-&gt;call(Object(Kirby\Cms\App), Object(Kirby\Cms\App), Object(Kirby\Cms\Site), Object(Kirby\Cms\Page))
+#6 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(460): Kirby\Toolkit\Controller-&gt;call(Object(Kirby\Cms\App), Array)
+#7 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(348): Kirby\Cms\App-&gt;controller(&#039;club&#039;, Array, &#039;html&#039;)
+#8 /Users/chriscorby/Code/byron/kirby/src/Cms/Page.php(1169): Kirby\Cms\Page-&gt;controller(Array, &#039;html&#039;)
+#9 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(687): Kirby\Cms\Page-&gt;render()
+#10 /Users/chriscorby/Code/byron/kirby/src/Cms/App.php(1040): Kirby\Cms\App-&gt;io(Object(Kirby\Cms\Page))
+#11 /Users/chriscorby/Code/byron/index.php(5): Kirby\Cms\App-&gt;render()
+#12 {main}
+

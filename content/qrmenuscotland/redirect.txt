@@ -1,0 +1,19 @@
+Title: QRMenuScotland
+
+----
+
+Redirect-type: file
+
+----
+
+Redirect-url: 
+
+----
+
+Redirect-page: 
+
+----
+
+Redirect-file:
+
+- byr_qr_menu_sco.pdf

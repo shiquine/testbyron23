@@ -1,0 +1,51 @@
+Title: sweet potato fries
+
+----
+
+Menu-image: 
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- sweet-potato-fries_lifestyle_1920.jpg
+
+----
+
+Tag: vegan,green
+
+----
+
+Description: <p>Because a little sweetness never hurt no one.</p>
+
+----
+
+Ingredients: 
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

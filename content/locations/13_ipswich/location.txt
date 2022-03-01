@@ -1,0 +1,120 @@
+Title: Ipswich
+
+----
+
+Delivery-only: false
+
+----
+
+Featured-image:
+
+- img_3418.jpg
+
+----
+
+Gallery:
+
+- img_3418.jpg
+- img_3319.jpg
+- img_3251.jpg
+
+----
+
+Description: 
+
+----
+
+Tags: Free WiFi, Wheelchair access, Vegan, Large parties, Outdoor seating
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Friday
+  opening_time: 11:30:00
+  closing_time: 22:30:00
+- 
+  day: Saturday
+  opening_time: 11:30:00
+  closing_time: 22:30:00
+- 
+  day: Sunday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: Buttermarket Centre
+
+----
+
+Address-line-two: 
+
+----
+
+Address-city: Ipswich
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: IP1 1DT
+
+----
+
+Address-lat: 52.0564351
+
+----
+
+Address-lng: 1.1545989
+
+----
+
+Phone: 01473 211853
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>Ipswich Train Station</strong></p>
+
+----
+
+What-three-words: later.keeps.paper
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

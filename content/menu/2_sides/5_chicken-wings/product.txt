@@ -1,0 +1,56 @@
+Title: chicken wings
+
+----
+
+Menu-image:
+
+- burger_24.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- chicken-wings_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>Coated in a&nbsp;shiny&nbsp;Buffalo glaze&nbsp;served with a&nbsp;refreshing&nbsp;blue cheese&nbsp;dip.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/chicken-wings
+- allergens/blue-cheese-dressing
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

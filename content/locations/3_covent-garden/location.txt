@@ -1,0 +1,115 @@
+Title: Covent Garden
+
+----
+
+Featured-image:
+
+- img_8102.jpg
+
+----
+
+Gallery:
+
+- img_8084.jpg
+- img_8548.jpg
+
+----
+
+Description: 
+
+----
+
+Tags: Outdoor seating, Wheelchair access, WiFi, Pre-theatre, Vegan, Site seeing
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 11:30:00
+  closing_time: 22:30:00
+- 
+  day: Friday
+  opening_time: 11:30:00
+  closing_time: 23:00:00
+- 
+  day: Saturday
+  opening_time: 11:30:00
+  closing_time: 23:00:00
+- 
+  day: Sunday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: 33-35 Wellington Street
+
+----
+
+Address-line-two: 
+
+----
+
+Address-city: London
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: WC2E 7BN
+
+----
+
+Address-lat: 51.5120648
+
+----
+
+Address-lng: -0.1207424
+
+----
+
+Phone: 020 78365037
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>Charing Cross</strong></p>
+
+----
+
+What-three-words: deputy.blame.placed
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

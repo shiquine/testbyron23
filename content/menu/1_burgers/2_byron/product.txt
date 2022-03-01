@@ -1,0 +1,65 @@
+Title: Byron
+
+----
+
+Menu-image:
+
+- burger_aw_2.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- byron-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: beef,red
+
+----
+
+Description: <p>Juicy 6oz beef patty, gooey American cheese, bacon, lettuce, tomato, red onion, special Byron sauce, pickles.&nbsp;</p><p><em>Now then, this is the main man you want to be pals with. Our signature burger has all the ingredients we believe the best burgers should have, including our bespoke Byron sauce. Top secret stuff, 007 who?</em></p>
+
+----
+
+Ingredients:
+
+- allergens/6oz-beef-patty
+- allergens/american-cheese
+- allergens/bacon
+- allergens/lettuce
+- allergens/tomato
+- allergens/onion
+- allergens/byron-sauce
+- allergens/pickles
+- allergens/byron-bun
+
+----
+
+Preparation-allergens:
+
+- allergens/soya
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

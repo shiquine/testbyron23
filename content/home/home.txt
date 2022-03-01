@@ -1,0 +1,57 @@
+Title: Home
+
+----
+
+Featured-campaigns:
+
+- squeezeballs
+- freedom-burger
+
+----
+
+Tickertape:
+
+- fiab2.gif
+
+----
+
+Video-720p: https://player.vimeo.com/external/573060438.hd.mp4?s=66e7b59c37988ddd553ac552a846867b18a38129&profile_id=174
+
+----
+
+Video-hls: https://player.vimeo.com/external/573060438.m3u8?s=9f39d6bbdfc6a976dfd8d52bdf035c4bdff93c2a
+
+----
+
+Featured-products:
+
+- menu/burgers/b-rex
+- menu/burgers/truffler
+- menu/burgers/clucky
+- menu/burgers/double-bacon-cheese
+- menu/burgers/c-rex
+
+----
+
+Stories:
+
+- stories/test
+- stories/test-2
+
+----
+
+Footer-illustration:
+
+- girl.json
+
+----
+
+Footer-illustration-type: loop
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

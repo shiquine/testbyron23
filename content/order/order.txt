@@ -1,0 +1,53 @@
+Title: Order
+
+----
+
+Intro: <p><strong>Getting the full Byron experience from the comfort of your home? What a time to be alive.</strong></p><p>If you order below, you're able to click and collect your food from a restaurant – at a time that suits you, while avoiding delivery charges. Ideal for skipping the queue, or if you're outside our delivery areas.</p><p>But if you'd rather the food came straight to your door, then you can get your Byron fix on <strong>Deliveroo</strong> as well.</p>
+
+----
+
+Collection-image:
+
+- 1.png
+
+----
+
+Collection-title: ORDER for COLLECTION
+
+----
+
+Collection-url: https://byron.wlwo-iorder.zonalconnect.com/#/venues/list
+
+----
+
+Delivery-image:
+
+- 2.png
+
+----
+
+Delivery-title: ORDER for DELIVERY
+
+----
+
+Delivery-url: https://byron.order.deliveroo.co.uk/
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

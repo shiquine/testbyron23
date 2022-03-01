@@ -1,0 +1,35 @@
+Title: Test
+
+----
+
+Regular-media:
+
+- thumbnail-5.jpeg
+
+----
+
+Cropped-media:
+
+- jobs.png
+
+----
+
+Description: This is a story description
+
+----
+
+Link-type: internal
+
+----
+
+Link-page:
+
+- freedom-burger
+
+----
+
+Link-url: 
+
+----
+
+Link-text: 

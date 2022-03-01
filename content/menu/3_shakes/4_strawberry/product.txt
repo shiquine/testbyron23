@@ -1,0 +1,55 @@
+Title: Strawberry shake
+
+----
+
+Menu-image:
+
+- shake_aw_6.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- strawberry-shake_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>Strawberries are part of your 5-a-day, so&nbsp;our&nbsp;job&nbsp;here is&nbsp;done.&nbsp;</em></p>
+
+----
+
+Ingredients:
+
+- allergens/strawberry
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

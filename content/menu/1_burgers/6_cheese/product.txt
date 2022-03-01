@@ -1,0 +1,64 @@
+Title: Cheese
+
+----
+
+Menu-image:
+
+- burger_aw_1.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- cheese-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: beef,red
+
+----
+
+Description: <p>Juicy 6oz beef patty, gooey American cheese, lettuce, tomato, red onion, ketchup, mayo<em>.<br></em>&nbsp;<br><em>Sometimes doing a simple thing and doing it properly requires additional gooey cheese and we’re here for it, and you, always. As comforting as a Great British brew.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/6oz-beef-patty
+- allergens/american-cheese
+- allergens/lettuce
+- allergens/onion
+- allergens/tomato
+- allergens/ketchup
+- allergens/mayo
+- allergens/byron-bun
+
+----
+
+Preparation-allergens:
+
+- allergens/soya
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

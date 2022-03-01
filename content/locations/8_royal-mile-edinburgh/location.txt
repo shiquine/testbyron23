@@ -1,0 +1,114 @@
+Title: Royal Mile, Edinburgh
+
+----
+
+Featured-image:
+
+- royal-mile-in.png
+
+----
+
+Gallery:
+
+- royal-mile-in.png
+
+----
+
+Description: 
+
+----
+
+Tags: Free WiFi, Wheelchair access, Vegan, Outdoor seating
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Friday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+- 
+  day: Saturday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+- 
+  day: Sunday
+  opening_time: 12:00:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: 29-31 North Bridge
+
+----
+
+Address-line-two: 
+
+----
+
+Address-city: Edinburgh
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: EH1 1SF
+
+----
+
+Address-lat: 55.9503642
+
+----
+
+Address-lng: -3.1873453
+
+----
+
+Phone: 01315 560930
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>Edinburgh Waverley Train Station</strong></p>
+
+----
+
+What-three-words: alien.laws.deaf
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

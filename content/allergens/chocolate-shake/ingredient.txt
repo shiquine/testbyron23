@@ -1,0 +1,20 @@
+Title: Chocolate shake
+
+----
+
+Allergens:
+
+- allergens/milk
+- allergens/soya
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: false

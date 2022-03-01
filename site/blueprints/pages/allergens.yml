@@ -1,0 +1,177 @@
+title: Allergens
+icon: alert
+options:
+  changeSlug: true
+  changeStatus: false
+  changeTemplate: false
+  changeTitle: true
+  delete: false
+  duplicate: false
+  preview: true
+  read: true
+  update: true
+
+tabs:
+  #
+  #  Allergens Tab
+  #
+  allergens:
+    label: Allergens & Ingredients
+    columns:
+      - width: 1/2
+        sections:
+          #
+          #  Allergens
+          #
+          allergens:
+            headline: Allergens
+            type: pages
+            create: allergen
+            template: allergen
+            empty: No allergens yet
+
+      - width: 1/2
+        sections:
+          #
+          #  Ingredients
+          #
+          ingredients:
+            headline: Ingredients
+            type: pages
+            create: ingredient
+            template: ingredient
+            empty: No ingredients yet
+
+  #
+  #  Content Tab
+  #
+  content:
+    label: Content
+    columns:
+      - width: 1/3
+        sticky: true
+        sections:
+          #
+          #  Files
+          #
+          files:
+            type: files
+            image:
+              back: black
+              cover: true
+
+      - width: 2/3
+        sections:
+          #
+          #  Content
+          #
+          content:
+            type: fields
+            fields:
+              intro_headline:
+                type: headline
+                label: Introduction
+                numbered: false
+
+              intro_text:
+                type: writer
+                label: Introduction
+                marks:
+                  - bold
+                  - italic
+                  - underline
+                  - strike
+                  - link
+                nodes:
+                  - bulletList
+                  - orderedList
+                  - listItem
+
+              more_button_text:
+                type: text
+                label: More Information (Button Text)
+                placeholder: Read more about our allergen safety policies.
+                help: |
+                  When the user clicks on this text, more information will expand below.
+
+              more_text:
+                type: writer
+                label: More Information (Content)
+                marks:
+                  - bold
+                  - italic
+                  - underline
+                  - strike
+                  - link
+                nodes:
+                  - bulletList
+                  - orderedList
+                  - listItem
+                  - horizontalRule
+                help: |
+                  This text will only be revealed when the visitor clicks on the button to open it.
+
+              guide_headline:
+                type: headline
+                label: Guide
+                numbered: false
+
+              guide_pdf:
+                label: PDF Guide
+                type: files
+                multiple: false
+
+              guide_text:
+                type: writer
+                label: Introduction
+                marks:
+                  - bold
+                  - italic
+                  - underline
+                  - strike
+                  - link
+                nodes:
+                  - bulletList
+                  - orderedList
+                  - listItem
+                help: |
+                  This text introduces the guide section below.
+
+              no_allergens_text:
+                type: writer
+                label: No Allergens Message
+                marks:
+                  - bold
+                  - italic
+                  - underline
+                  - strike
+                  - link
+                nodes:
+                  - bulletList
+                  - orderedList
+                  - listItem
+                help: |
+                  This text will show under a product when it doesn’t contain any allergens.
+
+              end_text:
+                type: writer
+                label: End Text
+                marks:
+                  - bold
+                  - italic
+                  - underline
+                  - strike
+                  - link
+                nodes:
+                  - bulletList
+                  - orderedList
+                  - listItem
+                help: |
+                  This text will be shown underneath the guide and could be used for disclaimers.
+
+
+  #
+  #  SEO Tab
+  #
+  seo:
+    extends: tabs/seo

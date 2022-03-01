@@ -1,0 +1,15 @@
+headline: Stories
+type: pages
+create: story
+template: story
+empty: No stories yet
+parent: site.index.template('stories').first
+layout: cards
+size: small
+image:
+  query: page.images.first
+  cover: true
+  ratio: 1/1
+info: "{{ page.description.excerpt(60) }}"
+help: |
+  Stories can be selected on Product pages.

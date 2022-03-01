@@ -1,0 +1,63 @@
+Title: Mini chicken
+
+----
+
+Menu-image:
+
+- burger_18.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- >
+  mini-chicken-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p>Grilled&nbsp;tender&nbsp;chicken breast, lettuce, tomato,&nbsp;ketchup.<br>&nbsp;<br><em>If the kids have got beef with you, go for the chicken burger! Happy families.&nbsp;</em>&nbsp;</p>
+
+----
+
+Ingredients:
+
+- allergens/byron-kids-bun
+- allergens/grilled-chicken
+- allergens/lettuce
+- allergens/tomato
+- allergens/ketchup
+
+----
+
+Preparation-allergens:
+
+- allergens/soya
+- allergens/milk
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

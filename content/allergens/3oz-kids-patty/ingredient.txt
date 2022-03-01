@@ -1,0 +1,17 @@
+Title: 3oz kids patty
+
+----
+
+Allergens: 
+
+----
+
+Is-vegetarian: false
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

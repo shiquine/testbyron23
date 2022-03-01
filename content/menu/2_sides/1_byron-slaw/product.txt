@@ -1,0 +1,57 @@
+Title: Byron Slaw
+
+----
+
+Menu-image:
+
+- burger_26.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- byron-slaw_lifestyle_1920.jpg
+
+----
+
+Tag: vegetarian,green
+
+----
+
+Description: <p><em>Creamy horseradish slaw topped with crispy onions and diced pickles.&nbsp;Full on&nbsp;flavour.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/slaw
+- allergens/crispy-onions
+- allergens/pickles
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

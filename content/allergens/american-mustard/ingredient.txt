@@ -1,0 +1,20 @@
+Title: American mustard
+
+----
+
+Allergens:
+
+- allergens/mustard
+- allergens/garlic
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: true
+
+----
+
+Is-gluten-free: true

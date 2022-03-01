@@ -1,0 +1,76 @@
+Title: ‘I didn’t want anyone else to have no one to talk to’
+
+----
+
+Featured-image:
+
+- img_0987.jpeg
+
+----
+
+Text:
+
+[
+    {
+        "content": {
+            "text": "<p><em>As part of our <a href=\"http://www.byron.co.uk/squeezeballs\" rel=\"noopener noreferrer nofollow\">Mac and Squeeze Balls</a> campaign, </em><strong><em>Testicular Cancer UK</em></strong><em> founder Phil Morris <br>tells us how and why he started the charity</em></p>"
+        },
+        "id": "6f7a5cae-4fe2-4484-a80d-55b4fa12c32b",
+        "isHidden": false,
+        "type": "text"
+    },
+    {
+        "content": {
+            "image": [
+                "img_0987.jpeg"
+            ],
+            "src": "",
+            "alt": "",
+            "caption": ""
+        },
+        "id": "937153ed-1b2c-4ca6-a304-1cced9288cde",
+        "isHidden": false,
+        "type": "image"
+    },
+    {
+        "content": {
+            "text": "<p>At <strong>Testicular Cancer UK</strong> we’re passionate, we’re survivors, and we’re there to listen. Most men who have had testicular cancer feel that having someone to talk to is the most important thing. </p><p>I was 29 when I was first diagnosed with testicular cancer. There was very little information available to me about what to expect –&nbsp;doctors and nurses treat you, then say “I’ll see you in two weeks”. I didn’t know whether the aches and pains I felt after chemo were normal.&nbsp; </p><p>I needed someone to talk to who could calm me down, or to say “you’re going to be alright”. I thought there was something wrong with me because I was scared.</p><p>People around me didn’t know what to say, and that’s one thing we address as a charity –&nbsp;we try to tell people how to reassure. I was staying up all night during chemo –&nbsp;it messes with your body clock&nbsp;– and I just wanted to talk to someone.</p><p>The day I was diagnosed with cancer, I was meant to be at a drumming clinic with Steve White, who was the drummer in the Style Council. I didn’t turn up and Steve, being the guy that he is, reached out to ask why. I told him and we stayed in touch.</p><p>When I finished chemo, Steve was playing at a Paul Weller gig and invited me over. I didn’t really want to be there –&nbsp;I knew I was going to live, but I was struggling mentally with it all. I told him “Steve, it’s been awful”. I just needed someone to talk to.</p>"
+        },
+        "id": "614cdb1e-0cf5-4d3c-a882-56827429afcd",
+        "isHidden": false,
+        "type": "text"
+    },
+    {
+        "content": {
+            "image": [
+                "image.jpeg"
+            ],
+            "src": "",
+            "alt": "",
+            "caption": ""
+        },
+        "id": "620d6304-e933-4718-a158-b6586e2daf2d",
+        "isHidden": false,
+        "type": "image"
+    },
+    {
+        "content": {
+            "text": "<p>He said “why don’t you start a website, try to get young men interested in their health?”. At that time, I can remember there was only a testicular cancer website in America. It said how to check your balls, what chemo might feel like… and that was it.</p><p>So I thought of our original name, Check ‘Em Lads, had some help from the guy who made Steve’s website, and that was the start of it. I didn’t want anyone else to have no one to talk to.</p><p>If I’d had a dialogue after my diagnosis with someone who’d been there and done it, it would have been easier during my treatment. My gums were bleeding, no one told me that would happen. I thought there was something wrong with me. But if I’d been told it’s normal… I’d have been fine.</p><p>We’ve grown a lot since then. I give talks at military bases and schools, there’s a helpline, and we’ve got a private forum on Facebook&nbsp;– you need to have been diagnosed to join. People have just found out they’ve got it and are scared –&nbsp;“what happens next?”</p><p>We had a post in there the other day from someone who’d had chemo five years ago. He said “if it wasn’t for you lot in here, I don’t think I’d have made it”. It moved me to tears.</p><p>To me, a charity should be involved from minute someone is diagnosed, to the minute they feel ready for normal life. People seem to think “oh you’re cured, be grateful” –&nbsp;but it’s not as easy as that. You don’t <em>know</em> that you’re cured. You’re in pain, depressed, can’t breathe. These fellas are told to go back and be Dads, and be workers the next day. To get on with it.</p><p>You get a pain in your head, and it’s “it’s spread to my brain”. That’s a lot of what we’re contacted about&nbsp;– “I’ve got a sore leg, I’m shitting myself”. We’re able to reassure people because we’ve been there.</p><p>My hope is that if we can make the whole first year easier to manage for people, then when other cancers get to the same survival rate as us, they’ll look at us and say “that’s where I want us to get to”.</p>"
+        },
+        "id": "dc0212c4-63ea-482e-87b7-1d9527128a9b",
+        "isHidden": false,
+        "type": "text"
+    }
+]
+
+----
+
+Published-date: 2021-07-20
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

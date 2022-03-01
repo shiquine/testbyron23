@@ -1,0 +1,19 @@
+Title: Slaw
+
+----
+
+Allergens:
+
+- allergens/sulphur-dioxide
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

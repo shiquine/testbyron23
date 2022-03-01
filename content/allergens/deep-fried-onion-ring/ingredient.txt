@@ -1,0 +1,22 @@
+Title: deep fried onion ring
+
+----
+
+Allergens:
+
+- allergens/milk
+- allergens/gluten-containing-cereals
+- allergens/garlic
+- allergens/barley
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

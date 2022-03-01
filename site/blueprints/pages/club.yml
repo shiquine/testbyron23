@@ -1,0 +1,52 @@
+title: Club
+icon: heart
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  changeTitle: false
+  delete: false
+  duplicate: false
+  preview: true
+  read: true
+  update: true
+
+tabs:
+  #
+  #  Content Tab
+  #
+  content:
+    extends: tabs/default_content
+    columns:
+      content:
+        sections:
+          content:
+            fields:
+              #
+              #  Form
+              #
+              form_line:
+                type: line
+
+              form_heading:
+                type: headline
+                label: Form
+                numbered: false
+
+              form_consent_message:
+                type: writer
+                label: Consent Message
+                help: |
+                  This will be shown next to the check box because the user submits the form
+
+              form_thank_you_message:
+                type: writer
+                label: Thank You Message
+                help: |
+                  This will be shown once the user has successfully completed the form
+
+  #
+  #  SEO Tab
+  #
+  seo:
+    extends: tabs/seo

@@ -1,0 +1,114 @@
+Title: Salisbury
+
+----
+
+Featured-image:
+
+- salisbury-out.png
+
+----
+
+Gallery:
+
+- salisbury-out.png
+
+----
+
+Description: 
+
+----
+
+Tags: Free WiFi, Wheelchair access, Vegan, Large parties
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 12:00:00
+  closing_time: 21:00:00
+- 
+  day: Tuesday
+  opening_time: 12:00:00
+  closing_time: 21:00:00
+- 
+  day: Wednesday
+  opening_time: 12:00:00
+  closing_time: 21:00:00
+- 
+  day: Thursday
+  opening_time: 12:00:00
+  closing_time: 21:00:00
+- 
+  day: Friday
+  opening_time: 12:00:00
+  closing_time: 21:00:00
+- 
+  day: Saturday
+  opening_time: 12:00:00
+  closing_time: 21:00:00
+- 
+  day: Sunday
+  opening_time: 12:00:00
+  closing_time: 20:00:00
+
+----
+
+Address-line-one: 55-57 New Canal
+
+----
+
+Address-line-two: Old George Mall
+
+----
+
+Address-city: 
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: SP1 2AA
+
+----
+
+Address-lat: 51.0681764
+
+----
+
+Address-lng: -1.7965737
+
+----
+
+Phone: 01722 322688
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: Salisbury Station</p>
+
+----
+
+What-three-words: clip.paying.mull
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

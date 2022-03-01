@@ -1,0 +1,52 @@
+.Illustration {
+  @include full-width-container;
+
+  //  The height should be enough that the illustration covers the social
+  //  icons in the footer
+  height: 75vw;
+
+  //  The height of this has to be below 100vh because there needs to be
+  //  distance to scroll to show the animation
+  max-height: 80vh;
+
+  padding-top: var(--margin);
+  padding-bottom: var(--margin);
+
+  @include media-query(medium) {
+    height: 55vw;
+  }
+
+  @include media-query(large) {
+    height: ($break--large * 0.55);
+  }
+}
+
+//  TODO: Review whether there is time to put in a fallback
+.no-js .Illustration {
+  display: none;
+}
+
+.Illustration[data-tall] {
+  height: 80vw;
+
+  @include media-query(medium) {
+    height: 60vw;
+  }
+
+  @include media-query(large) {
+    height: ($break--large * 0.6);
+  }
+}
+
+//  TODO: Review size
+.Illustration[data-short] {
+  height: 40vw;
+
+  @include media-query(medium) {
+    height: 30vw;
+  }
+
+  @include media-query(large) {
+    height: ($break--large * 0.3);
+  }
+}

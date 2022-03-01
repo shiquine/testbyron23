@@ -1,0 +1,123 @@
+Title: Chelmsford
+
+----
+
+Delivery-only: false
+
+----
+
+Airship-id: 3110
+
+----
+
+Featured-image:
+
+- chelmsford-2.jpg
+
+----
+
+Gallery:
+
+- chelmsford-2.jpg
+- chelmsford-1.jpg
+
+----
+
+Description: 
+
+----
+
+Tags: Free WiFi, Wheelchair access, Large parties, Vegan, Outdoor seating
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+- 
+  day: Friday
+  opening_time: 11:30:00
+  closing_time: 22:30:00
+- 
+  day: Saturday
+  opening_time: 11:30:00
+  closing_time: 22:30:00
+- 
+  day: Sunday
+  opening_time: 11:30:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: Bond Street
+
+----
+
+Address-line-two: Chelmsford
+
+----
+
+Address-city: 
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: CM1 1GD
+
+----
+
+Address-lat: 51.7339879
+
+----
+
+Address-lng: 0.4761092
+
+----
+
+Phone: 01245 255708
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>Chelmsford Train Station</strong></p>
+
+----
+
+What-three-words: sentences.elder.tiles
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

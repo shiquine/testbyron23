@@ -1,0 +1,114 @@
+Title: Brighton
+
+----
+
+Delivery-only: true
+
+----
+
+Featured-image: 
+
+----
+
+Gallery: 
+
+----
+
+Description: 
+
+----
+
+Tags: 
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: ""
+  closing_time: ""
+- 
+  day: Tuesday
+  opening_time: ""
+  closing_time: ""
+- 
+  day: Wednesday
+  opening_time: ""
+  closing_time: ""
+- 
+  day: Thursday
+  opening_time: ""
+  closing_time: ""
+- 
+  day: Friday
+  opening_time: ""
+  closing_time: ""
+- 
+  day: Saturday
+  opening_time: ""
+  closing_time: ""
+- 
+  day: Sunday
+  opening_time: ""
+  closing_time: ""
+
+----
+
+Address-line-one: 1 Brighton Road
+
+----
+
+Address-line-two: 
+
+----
+
+Address-city: Brighton
+
+----
+
+Address-county: East Sussex
+
+----
+
+Address-postcode: BN1 1NB
+
+----
+
+Address-lat: 50.8226403
+
+----
+
+Address-lng: -0.1400929
+
+----
+
+Phone: 5168435132
+
+----
+
+Email: brighton@byron.co.uk
+
+----
+
+Map-caption: 
+
+----
+
+What-three-words: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

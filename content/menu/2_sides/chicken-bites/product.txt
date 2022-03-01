@@ -1,0 +1,54 @@
+Title: chicken bites
+
+----
+
+Menu-image: 
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- chicken-bites_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>Crispy&nbsp;Buttermilk-marinated gluten-free fried chicken with&nbsp;secret&nbsp;Byron seasoning. Served with&nbsp;sweet&nbsp;BBQ&nbsp;sauce.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/chicken-bites
+- allergens/bbq-sauce
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

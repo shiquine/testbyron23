@@ -1,0 +1,90 @@
+.Video {
+  position: relative;
+  width: 100vw;
+  height: 56.25vw; // 16:9
+  max-height: calc(100vh - var(--headerHeight));
+  // max-width: var(--extraMaxWidth);
+  // margin-right: auto;
+  // margin-left: auto;
+}
+
+.Video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Video-play {
+  // <button>
+  @include absolute-fill;
+  z-index: 1;
+  color: $white;
+  cursor: pointer;
+}
+
+.no-js .Video-play {
+  display: none;
+}
+
+.Video-play span {
+  @include hidden;
+}
+
+.Video[data-playing] .Video-playText {
+  display: none;
+}
+
+.Video:not([data-playing]) .Video-pauseText {
+  display: none;
+}
+
+.Video-mute {
+  // <button>
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 2;
+  color: $putty;
+  cursor: pointer;
+
+  @include media-query(small) {
+    right: var(--margin);
+  }
+}
+
+.no-js .Video-mute {
+  display: none;
+}
+
+.Video-mute span {
+  @include hidden;
+}
+
+.Video:not([data-muted]) .Video-unmuteText,
+.Video:not([data-muted]) .svg-muted {
+  display: none;
+}
+
+.Video[data-muted] .Video-muteText,
+.Video[data-muted] .svg-unmuted {
+  display: none;
+}
+
+.Video .svg-muted {
+  //  Ratio = 36 34.6
+  width: 24px;
+  height: 24px;
+}
+
+.Video .svg-unmuted {
+  //  Ratio = 36 33.8
+  width: 24px;
+  height: 23px;
+}

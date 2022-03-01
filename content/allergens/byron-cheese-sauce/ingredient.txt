@@ -1,0 +1,22 @@
+Title: Byron cheese sauce
+
+----
+
+Allergens:
+
+- allergens/milk
+- allergens/gluten-containing-cereals
+- allergens/soya
+- allergens/egg
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: false

@@ -1,0 +1,64 @@
+Title: Mini cheese
+
+----
+
+Menu-image:
+
+- burger_19.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- >
+  mini-cheese-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p>Succulent&nbsp;Beef patty, Cheddar cheese, lettuce, tomato, ketchup.&nbsp;Served well&nbsp;done.<br>&nbsp;<br><em>Honey I shrunk the cheeseburger, the perfect choice for your mini&nbsp;me’s.</em>&nbsp;<br>&nbsp;</p>
+
+----
+
+Ingredients:
+
+- allergens/3oz-kids-patty
+- allergens/byron-kids-bun
+- allergens/cheddar-cheese
+- allergens/ketchup
+- allergens/lettuce
+- allergens/tomato
+
+----
+
+Preparation-allergens:
+
+- allergens/egg
+- allergens/soya
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

@@ -1,0 +1,122 @@
+Title: Bluewater
+
+----
+
+Delivery-only: false
+
+----
+
+Airship-id: 3114
+
+----
+
+Featured-image:
+
+- bluewater-in.png
+
+----
+
+Gallery:
+
+- bluewater-in.png
+
+----
+
+Description: <p>There will be some description here</p>
+
+----
+
+Tags: Free WiFi, Wheelchair access, Vegan, Large parties, Outdoor seating
+
+----
+
+Opening-hours:
+
+- 
+  day: Monday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+- 
+  day: Tuesday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+- 
+  day: Wednesday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+- 
+  day: Thursday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+- 
+  day: Friday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+- 
+  day: Saturday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+- 
+  day: Sunday
+  opening_time: 11:00:00
+  closing_time: 22:00:00
+
+----
+
+Address-line-one: The Village, Bluewater Shopping Centre
+
+----
+
+Address-line-two: Greenhithe
+
+----
+
+Address-city: 
+
+----
+
+Address-county: 
+
+----
+
+Address-postcode: DA9 9ST
+
+----
+
+Address-lat: 51.4395865
+
+----
+
+Address-lng: 0.2692964
+
+----
+
+Phone: 01322 427716
+
+----
+
+Email: 
+
+----
+
+Map-caption: <p>Nearest station: <strong>Stone Train Station</strong></p>
+
+----
+
+What-three-words: cake.trader.navy
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: scroll
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

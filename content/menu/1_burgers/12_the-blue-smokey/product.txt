@@ -1,0 +1,63 @@
+Title: The Blue Smokey
+
+----
+
+Menu-image:
+
+- burger_aw_6.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- >
+  blue-cheese-smokey-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: beef,red
+
+----
+
+Description: <p>Juicy 6oz beef patty, smokey pancetta,&nbsp;Blue&nbsp;cheese, crispy onions, smoked&nbsp;chilli&nbsp;BBQ sauce, pickles, lettuce.<br>&nbsp;<br><em>Why not mix up the fancy French fusion with some&nbsp;mouth-watering&nbsp;blue cheese for the ultimate&nbsp;flavour&nbsp;party in your mouth? Everyone is invited.&nbsp;</em></p>
+
+----
+
+Ingredients:
+
+- allergens/6oz-beef-patty
+- allergens/pancetta
+- allergens/blue-cheese
+- allergens/crispy-onions
+- allergens/smoked-chilli-bbq-sauce
+- allergens/pickles
+- allergens/lettuce
+- allergens/byron-bun
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

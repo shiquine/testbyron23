@@ -1,0 +1,52 @@
+.Expander {
+}
+
+.Expander-button {
+  // <button>
+}
+
+.no-js .Expander-button {
+  display: none;
+}
+
+//  In no-js, we still want the allergens buttons as headings
+.no-js .Allergens-menu .Expander-button {
+  display: block;
+}
+
+.Expander-content {
+  //  Hide initially so the items aren’t in tab order
+  visibility: hidden;
+
+  //  For slideDown and slideUp
+  max-height: 0;
+  overflow: hidden;
+
+  transition: max-height 0.8s $ease-in-out-quart, visibility 0.01s 0.8s linear;
+}
+
+.no-js .Expander-content {
+  max-height: none;
+  visibility: visible;
+}
+
+.Expander-button[aria-expanded="true"] + .Expander-content {
+  visibility: visible;
+  transition: max-height 0.8s 0.01s $ease-in-out-quart, visibility 0s linear;
+}
+
+.Expander-contentInner {
+  opacity: 0;
+  transition: opacity 0.5s $ease-out-quad;
+}
+
+.no-js .Expander-contentInner {
+  opacity: 1;
+}
+
+.Expander-button[aria-expanded="true"]
+  + .Expander-content
+  .Expander-contentInner {
+  opacity: 1;
+  transition-duration: 1s;
+}

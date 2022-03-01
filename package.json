@@ -1,0 +1,64 @@
+{
+  "name": "byron",
+  "author": "Chris Corby",
+  "license": "UNLICENSED",
+  "browserslist": [
+    "last 3 chrome versions",
+    "last 3 safari versions",
+    "last 3 edge versions",
+    "last 3 firefox versions",
+    "last 4 iOS major versions",
+    "last 3 ChromeAndroid major versions",
+    "not dead"
+  ],
+  "config": {
+    "css_directory": "assets/css/",
+    "css_input": "assets/css/main.scss",
+    "css_output": "assets/css/build/style.css",
+    "js_directory": "assets/js/",
+    "js_output": "assets/js/build/bundle.js",
+    "js_polyfills_output": "assets/js/build/polyfills.js",
+    "local_url": "/byron",
+    "php_files": "*.php site/*.php site/*/*.php"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@splidejs/splide": "^2.4.21",
+    "core-js": "^3.12.1",
+    "focus-trap": "^6.4.0",
+    "intersection-observer": "^0.12.0",
+    "js-cookie": "^2.2.1",
+    "lazysizes": "^5.3.2",
+    "lodash-es": "^4.17.21",
+    "lottie-web": "^5.7.11",
+    "postcss": "^8.2.15",
+    "sass": "^1.32.13",
+    "terser": "^5.7.0",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "autoprefixer": "^10.2.5",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^8.3.1",
+    "rollup": "^2.48.0",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "dev:js": "rollup --config --environment BUILD:dev --file $npm_package_config_js_output",
+    "watch:js": "watch 'yarn run dev:js' $npm_package_config_js_directory --ignoreDirectoryPattern='/build/' --interval='2'",
+    "build:js": "rollup --config --environment BUILD:production | babel --no-babelrc --presets=@babel/preset-env | terser --compress drop_console=true --mangle --output $npm_package_config_js_output",
+    "build:js:polyfills": "rollup --config --environment BUILD:polyfills | terser --compress drop_console=true --mangle --output $npm_package_config_js_polyfills_output",
+    "dev:css": "sass --embed-source-map --quiet $npm_package_config_css_input $npm_package_config_css_output",
+    "watch:css": "watch 'yarn run dev:css' $npm_package_config_css_directory --ignoreDirectoryPattern='/build/' --interval='2'",
+    "build:css": "sass --style compressed $npm_package_config_css_input | postcss --no-map --use autoprefixer --output $npm_package_config_css_output",
+    "build:css:one": "sass --style compressed $npm_package_config_css_input $npm_package_config_css_output",
+    "build:css:two": "postcss $npm_package_config_css_output --no-map --use autoprefixer --output $npm_package_config_css_output",
+    "sync": "browser-sync start --proxy localhost:8888 --browser 'google chrome' --startPath $npm_package_config_local_url --files $npm_package_config_php_files $npm_package_config_js_output $npm_package_config_css_output",
+    "start": "npm-run-all --parallel watch:js watch:css",
+    "build": "npm-run-all --parallel build:css build:js"
+  }
+}

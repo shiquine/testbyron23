@@ -1,0 +1,17 @@
+Title: skin on fries
+
+----
+
+Allergens: 
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: true
+
+----
+
+Is-gluten-free: true

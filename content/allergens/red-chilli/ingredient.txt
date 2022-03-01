@@ -1,0 +1,17 @@
+Title: red chilli
+
+----
+
+Allergens: 
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: true
+
+----
+
+Is-gluten-free: false

@@ -1,0 +1,22 @@
+Title: Byron sauce
+
+----
+
+Allergens:
+
+- allergens/egg
+- allergens/celery
+- allergens/mustard
+- allergens/garlic
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

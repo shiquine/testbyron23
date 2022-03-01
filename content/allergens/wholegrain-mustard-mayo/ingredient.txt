@@ -1,0 +1,21 @@
+Title: wholegrain mustard mayo
+
+----
+
+Allergens:
+
+- allergens/egg
+- allergens/garlic
+- allergens/mustard
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

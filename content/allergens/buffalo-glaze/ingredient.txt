@@ -1,0 +1,20 @@
+Title: buffalo glaze
+
+----
+
+Allergens:
+
+- allergens/garlic
+- allergens/milk
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

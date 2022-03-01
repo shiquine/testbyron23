@@ -1,0 +1,47 @@
+Title: April 12 Outdoor Re-Opening
+
+----
+
+Featured-image:
+
+- byronobr.jpeg
+
+----
+
+Text:
+
+[
+    {
+        "content": {
+            "image": [
+                "byronobr.jpeg"
+            ],
+            "src": "",
+            "alt": "Seating outside of a local Byron",
+            "caption": ""
+        },
+        "id": "2022a093-ae69-4e41-a460-7390e9e7985b",
+        "isHidden": false,
+        "type": "image"
+    },
+    {
+        "content": {
+            "text": "<p>After what feels like an eternity, we will soon be BACK serving outdoor burgers, beers and bottomless fries.  Sun’s out? Buns out <strong><em>cue fireworks</em></strong>. </p><p>At most of our sites –&nbsp;the full list is below –&nbsp;we’ve put together a socially distanced outdoor burger paradise that we can’t <em>wait</em> for you to visit. We aren’t taking bookings for these seats, but we <strong>are</strong> for the Other Big Important Re-Opening on May 17 (<strong><u><a href=\"https://www.byron.co.uk/book\" rel=\"noopener noreferrer nofollow\">book here</a></u></strong>).</p><p>What if it rains in April, you ask? Well, we’ve used the time we’ve been closed to come up with a cunning plan –&nbsp;umbrellas, awnings and… roofs! That proper restaurant burger you’ve been craving for <em>ages </em>won’t be spoiled by a little thing like the weather. Rain or shine, it’s burger time.</p><p>Plus there’ll be rivers of ice-cold, fizzy-fresh draught lager from our special outdoor bars. If you just want to grab a pint or half-pint for take away, that’s totally fine –&nbsp;we won’t be offended.</p><p>We’re also still offering Collection and takeaway if you can’t grab an outdoor seat, so load the WhatsApp group chats and get some burgers sorted for the park.</p><p><strong>Restaurants with outdoor dining from April 12: </strong></p><p>Bluewater, Bury St Edmunds, Cambridge, Chelmsford, Ipswich, Leeds, Liverpool, Manchester, <br>Milton Keynes, Norwich, Old Brompton Road, Southampton, Waterloo</p><p></p>"
+        },
+        "id": "ab0f1fe5-c940-4c30-b5a5-d96cb9ca77f0",
+        "isHidden": false,
+        "type": "text"
+    }
+]
+
+----
+
+Published-date: 2021-07-14
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

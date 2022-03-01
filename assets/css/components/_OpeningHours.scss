@@ -1,0 +1,23 @@
+.OpeningHours {
+  margin-bottom: 12px; // assumes copy follows
+  @include copy;
+}
+
+.OpeningHours-title {
+  @include hidden;
+}
+
+.OpeningHours ul {
+}
+
+.OpeningHours li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.OpeningHours li span:first-child {
+  padding-right: 1em; // min-distance
+}
+
+.OpeningHours li span:last-child {
+}

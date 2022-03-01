@@ -1,0 +1,63 @@
+Title: Mac  & Cheese
+
+----
+
+Menu-image:
+
+- burger_22.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- mac-cheese_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>Cheesy,&nbsp;creamy,&nbsp;gooey&nbsp;goodness. Scoop&nbsp;some&nbsp;inside your burger,&nbsp;it’s&nbsp;pure&nbsp;magic.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/mac-cheese
+
+----
+
+Preparation-allergens:
+
+- allergens/fish
+- allergens/crustaceans
+- allergens/molluscs
+- allergens/egg
+- allergens/celery
+- allergens/mustard
+- allergens/sulphur-dioxide
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

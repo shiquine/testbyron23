@@ -1,0 +1,55 @@
+Title: Irn Bru shake
+
+----
+
+Menu-image:
+
+- shake_aw_4.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- irn-bru-shake_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>Taking your tastebuds to the Scottish highlands with this number. Scotland restaurants only.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/irn-bru-shake
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

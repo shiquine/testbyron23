@@ -1,0 +1,89 @@
+.Socials {
+}
+
+.Socials--footer {
+  //  Take the extra spacing off
+  margin-top: -((48px - 20px) / 2);
+  margin-bottom: -((48px - 20px) / 2);
+
+  @include media-query(medium) {
+    margin-top: -((48px - 29px) / 2);
+    margin-bottom: -((48px - 29px) / 2);
+  }
+}
+
+.Socials-list {
+  // <ui>
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Socials-item {
+  // <li>
+  display: block;
+
+  @include media-query(medium) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.Socials-item--twitter {
+}
+
+.Socials-item--instagram {
+}
+
+.Socials-item--facebook {
+}
+
+.Socials-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  //  Min tap target size
+  width: 48px;
+  height: 48px;
+
+  transition: opacity $transition;
+
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+}
+
+.Socials-item .svg-twitter {
+  //  Ratio = 210:170.7
+  width: 25px;
+  height: 20px;
+
+  @include media-query(medium) {
+    width: 32px;
+    height: 26px;
+  }
+}
+
+.Socials-item .svg-instagram {
+  //  Ratio = 1:1
+  width: 20px;
+  height: 20px;
+
+  @include media-query(medium) {
+    width: 31px;
+    height: 31px;
+  }
+}
+
+.Socials-item .svg-facebook {
+  //  Ratio = 101.6:204.5
+  width: 10px;
+  height: 20px;
+
+  @include media-query(medium) {
+    width: 15px;
+    height: 29px;
+  }
+}

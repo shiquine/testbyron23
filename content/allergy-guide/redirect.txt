@@ -1,0 +1,19 @@
+Title: Allergy Guide
+
+----
+
+Redirect-type: file
+
+----
+
+Redirect-url: 
+
+----
+
+Redirect-page: 
+
+----
+
+Redirect-file:
+
+- allergy-guide-july-2021.pdf

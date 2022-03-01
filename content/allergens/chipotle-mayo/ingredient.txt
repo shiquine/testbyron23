@@ -1,0 +1,20 @@
+Title: chipotle mayo
+
+----
+
+Allergens:
+
+- allergens/egg
+- allergens/celery
+
+----
+
+Is-vegetarian: true
+
+----
+
+Is-vegan: false
+
+----
+
+Is-gluten-free: true

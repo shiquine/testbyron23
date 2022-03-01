@@ -1,0 +1,64 @@
+Title: B-rex
+
+----
+
+Menu-image:
+
+- burger_aw_10.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- b-rex-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: beef,red
+
+----
+
+Description: <p>Juicy 6oz beef patty, gooey American cheese, bacon, onions, jalapeños, deep-fried onion ring, BBQ sauce, mayo, pickles.&nbsp;<br><br><em>Inspired by a post-cinema burger fix&nbsp;as a child, this is next level naughty with an onion ring the size of your head.&nbsp;Jurassic times call for Jurassic measures.&nbsp;Fun fact, there was a&nbsp;dino&nbsp;called&nbsp;Byronosaurus, so it’s simply meant to be.&nbsp;</em></p>
+
+----
+
+Ingredients:
+
+- allergens/6oz-beef-patty
+- allergens/american-cheese
+- allergens/bacon
+- allergens/onion
+- allergens/jalapenos
+- allergens/deep-fried-onion-ring
+- allergens/bbq-sauce
+- allergens/mayo
+- allergens/pickles
+- allergens/byron-bun
+
+----
+
+Preparation-allergens: 
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

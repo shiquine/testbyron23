@@ -1,0 +1,65 @@
+Title: Double Bacon Cheese
+
+----
+
+Menu-image:
+
+- burger_aw_3.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- >
+  double-bacon-cheese-with-fries_lifestyle_1920.jpg
+
+----
+
+Tag: beef,red
+
+----
+
+Description: <p>Two&nbsp;succulent&nbsp;6oz beef patties, gooey American cheese, bacon, ketchup, American mustard, pickles.<br>&nbsp;<br><em>This beast was born as a&nbsp;lads&nbsp;burger, but soon became the king of all burgers. Simple yet indulgent, just like your&nbsp;Grandma’s&nbsp;cooking... on a good day.</em></p>
+
+----
+
+Ingredients:
+
+- allergens/6oz-beef-patty
+- allergens/american-cheese
+- allergens/american-mustard
+- allergens/bacon
+- allergens/ketchup
+- allergens/pickles
+- allergens/byron-bun
+
+----
+
+Preparation-allergens:
+
+- allergens/egg
+- allergens/soya
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

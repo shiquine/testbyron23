@@ -1,0 +1,46 @@
+type: structure
+columns:
+  text:
+    width: 1/3
+  page:
+    width: 1/3
+  url:
+    width: 1/3
+fields:
+  type:
+    type: select
+    label: Type
+    width: 1/4
+    options:
+      page: Page
+      url: URL
+    default: page
+    help: |
+      Select 'URL' for external sites, or if you need to link to a section of a page, for example /menu#burger-name
+  text:
+    type: text
+    label: Link Text
+    width: 1/4
+  page:
+    type: pages
+    label: Page
+    multiple: false
+    width: 1/2
+    when:
+      type: page
+  url:
+    type: url
+    label: URL
+    width: 1/4
+    when:
+      type: url
+  new_tab:
+    type: toggle
+    label: Open in New Tab?
+    width: 1/4
+    default: false
+    text:
+      - "No"
+      - "Yes"
+    when:
+      type: url

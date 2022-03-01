@@ -1,0 +1,64 @@
+Title: Mini mac & cheese
+
+----
+
+Menu-image:
+
+- burger_20.png
+
+----
+
+Secondary-categories: 
+
+----
+
+Hero-image:
+
+- >
+  mini-mac-with-salad-2-_lifestyle_1920.jpg
+
+----
+
+Tag: 
+
+----
+
+Description: <p><em>Gooey, cheesy goodness for those small stomachs.&nbsp;</em></p>
+
+----
+
+Ingredients:
+
+- allergens/mac-cheese
+
+----
+
+Preparation-allergens:
+
+- allergens/fish
+- allergens/crustaceans
+- allergens/molluscs
+- allergens/egg
+- allergens/celery
+- allergens/mustard
+- allergens/sulphur-dioxide
+
+----
+
+Stories: 
+
+----
+
+Footer-illustration: 
+
+----
+
+Footer-illustration-type: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-image: 

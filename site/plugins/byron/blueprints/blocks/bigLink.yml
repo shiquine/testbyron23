@@ -1,0 +1,40 @@
+name: Big Link
+icon: globe
+
+fields:
+  position:
+    type: select
+    label: Position
+    width: 1/2
+    options:
+      left: Left
+      center: Centre
+    default: left
+  link_type:
+    type: select
+    label: Type
+    width: 1/2
+    options:
+      page: Page
+      url: URL
+    default: page
+    help: |
+      Select 'URL' for external sites, or if you need to link to a section of a page, for example /menu#burger-name
+  text:
+    type: text
+    label: Link Text
+    placeholder: Link Text
+    width: 1/2
+  page:
+    type: pages
+    label: Page
+    multiple: false
+    width: 1/2
+    when:
+      link_type: page
+  url:
+    type: url
+    label: URL
+    width: 1/2
+    when:
+      link_type: url
